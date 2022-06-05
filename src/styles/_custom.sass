@@ -41,7 +41,7 @@
 .fondo6
   background-image: url('../assets/curso/tema1/fondobook.svg')
   background-size: 80% 80%
-  background-position: top
+  background-position: initial
   background-repeat: no-repeat
 
 .fondo7
@@ -111,11 +111,28 @@
 
 .fondo19
   background-color: #CDE5E7 !important
+  background-size: 100% 100%
 
 .fondo19:hover
   background-color: #77B8BC !important
 
+.fondo20
+  background-image: url('../assets/curso/tema2/fondo1.jpg')
+  background-size: 60% 100%
+  background-position: center
+  background-repeat: no-repeat
+
+.fondo21
+  background-image: url('../assets/curso/tema2/fondo2.jpg')
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
 .correr-izq
+  margin-left: -130px
+  z-index: 0
+
+.correr-izq3
   margin-left: -130px
   z-index: 0
 
@@ -125,6 +142,10 @@
 
 .correr-der
   margin-right: -230px !important
+  z-index: 0
+
+.correr-der2
+  margin-right: -50px !important
   z-index: 0
 
 .tarjeta--azul 
@@ -140,13 +161,13 @@
   background-color: #D7EAEB !important
 
 .img-infografica__card--selected
-  width: 500px !important
+  width: 400px !important
 
 .fondohistograma2
   background-color: #EFEFEF !important
 
 .padTitulo
-  padding: 10px 0px 20px 90px !important
+  padding: 10px 0px 20px 65px !important
 
 .fa-book-open:before
   color: #1A878E
@@ -158,6 +179,9 @@
   margin-top: -30px
 
 .subir3
+  margin-top: -60px
+
+.subir4
   margin-top: -60px
 
 .encima
@@ -188,6 +212,9 @@
 
 .bordeSupTabla
   border-top: 6px solid #79DAE1
+
+.bordetabla
+  border: 2px solid #707070
 
 .tarjeta--boton
   border-radius: 20px
@@ -222,5 +249,88 @@
   background-color: rgba(75, 135, 178, 0.55 )
   border-color: rgba(75, 135, 178, 0.55 )
 
+.cambiarcajon 
+  position: relative
+
+.cambiarcajon:before
+  content: ''
+  display: block
+  position: absolute
+  opacity: .35
+  top: 65% !important
+  left: 50% !important
+  right: 0 !important
+  bottom: 0 !important
+  background-color: #4B87B2
+  
 .cajon-b:before
   bottom: 60% !important
+
+.tamano-nro
+  width: 83%
+  margin-left: 2.4em
+
+@media (min-width: 1401px)
+  .nomostrar
+    display: none
+    
+@media (max-width: 1400px)
+  .tamano-nro
+    width: 120%
+    margin-left: 0
+  .tamanotarjeta
+    height: 340px
+
+@media (max-width: 1200px)
+  .anchocol3
+    width: 150px
+  .tarjeta--boton
+    height: 170px
+  .subir3
+    margin-top: -45px
+  .tamanotarjeta
+    height: 340px
+
+@media (max-width: 992px)
+  .subir3
+    margin-top: -75px
+  .img-infografica__card--selected
+    width: 300px !important
+  .nomostrar1
+    display: none
+  .fondo16
+    background-size: cover
+  .subir2
+    margin-top: 0
+
+@media (max-width: 768px)
+  .tamano-nro
+    width: 100%
+    margin-left: 1em
+  .subir4
+    margin-top: 20px
+  .img-infografica__card--selected
+    width: 300px !important
+
+@media (max-width: 576px)
+  .tarjeta--boton
+    height: 200px
+  .subir3
+    margin-top: -95px
+  .tamanotarjeta
+    height: 320px
+  .padTitulo
+    padding: 15px 0px 25px 55px !important
+  .img-infografica__card--selected
+    width: 300px !important
+  .ancho1
+    width: 380px
+  .ancho2
+    width: 280px
+  .correr-izq3
+    margin-left: -50px
+    z-index: 0
+  .nomostrar2
+    display: none
+  .slyder-a__bullets__item
+    margin: 0 2px

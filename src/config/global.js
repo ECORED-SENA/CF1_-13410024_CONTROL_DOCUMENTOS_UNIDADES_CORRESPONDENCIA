@@ -156,139 +156,125 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Acuerdo 060 de 2001. [Archivo General de la Nación Colombia]. Por el cual se establecen pautas para la administración de las comunicaciones oficiales en las entidades públicas y las privadas que cumplen funciones públicas. Octubre 30 de 2001.',
+      link: 'https://normativa.archivogeneral.gov.co/acuerdo-060-de-2001/',
+    },
+    {
+      referencia: 'Analítica (2020). Radicación.',
+      link: 'http://www.analitica.co/wiki/index.php?title=Radicaci%C3%B3n',
+    },
+    {
+      referencia: 'Archivosagil (2018). ¿Qué es archivística?',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://archivosagil.blogspot.com/2018/01/que-es-archivistica.html ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Equipo Editorial. (2008). Procesos de gestión de documentos. Metadatos para la gestión de documentos. Parte 2: Aspectos conceptuales y de implementación. ISO 23081-2. Revista Española De Documentación Científica, 31(3), p. 453-506.',
+      link: 'https://redc.revistas.csic.es/index.php/redc/article/view/439',
+    },
+    {
+      referencia:
+        'Galán, E. (2012). El concepto de Archivo y su origen documental. Alquibla.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.alquiblaweb.com/2012/06/09/el-concepto-de-archivo-y-su-origen/ ',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Organización Internacional de Normalización [ISO]. (2001). Información y documentación – Gestión de documentos (Norma ISO 15489). ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.informacionpublicapgr.gob.sv/descargables/sia/normativa-internacional/GEStexto1(CS).pdf ',
     },
     {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      referencia: 'Universidad de Málaga. (2018). La clasificación.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.uma.es/archivo-general/cms/menu/manual-para-archivos-de-oficina/y-la-clasificacion-que-es-como-puede-ayudarme/ ',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Universidad Nacional de Córdoba. (2019). Los principios archivísticos que determinan el método. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'http://radtgu.eco.catedras.unc.edu.ar/la-organizacion-de-los-documentos-de-archivo/agrupaciones-documentales/los-principios-archivisticos-que-determinan-el-metodo/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Administración documental',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'es el proceso que permite planificar, organizar, dirigir y controlar todas aquellas actividades relacionadas con la creación de los diferentes documentos, además de su mantenimiento, distribución, localización, protección, control, uso y disposición o conservación permanente.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Comunicaciones oficiales',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'son todas aquellas recibidas o producidas en desarrollo de las funciones asignadas legalmente a una entidad, independientemente del medio utilizado.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Correspondencia',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'son todas las comunicaciones de carácter privado que llegan a las entidades, a título personal, citando o no el cargo del funcionario. No generan trámites para las instituciones.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Destinatario',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'designa a la persona o entidad a quien va destinada o dirigida una cosa, que puede ser una llamada, una carta, un discurso o un envío. En una carta, por ejemplo, el destinatario es aquel a quien va dirigida la carta.',
     },
     {
-      termino: 'Moda',
+      termino: 'Documento original',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'es la fuente primaria de información con todos los rasgos y características que permiten garantizar su autenticidad e integridad.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Estructura organizacional',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'división de todas las actividades de una empresa que se agrupan para formar áreas o departamentos, estableciendo autoridades que, a través de la organización y coordinación, buscan alcanzar objetivos. ',
     },
     {
-      termino: 'DIseño',
+      termino: 'Flujo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'circulación a través de varias oficinas buscando alcanzar el objetivo.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Gestión de documentos',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'conjunto de actividades administrativas y técnicas tendientes a la planificación, manejo y organización de la documentación producida y recibida por las entidades, desde su origen hasta su destino final, con el objeto de facilitar su utilización y conservación.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'ICONTEC',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'entidad de carácter privado, sin ánimo de lucro, cuya misión es fundamental para brindar soporte y desarrollo al productor y protección al consumidor. Colabora con el sector gubernamental y apoya al sector privado del país para lograr ventajas competitivas en los mercados interno y externo.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Norma',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'conjunto de políticas o reglas formuladas por Gestión Documental para regular el desarrollo de la función archivística en la administración. Esta regla debe ser aplicada por las áreas para el desarrollo de sus funciones archivísticas y de gestión documental.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Radicación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'procedimiento por medio del cual las entidades asignan un número consecutivo a las comunicaciones recibidas o producidas, dejando constancia de la fecha y hora de recibo o de envío, con el propósito de oficializar el trámite y cumplir con los términos de vencimiento que establezca la ley. Estos términos se empiezan a contar a partir del día siguiente de radicado el documento.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Soporte documental',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'medios en los cuales se contiene información, según los materiales o medios tecnológicos empleados. Además de los archivos en papel, existen los archivos audiovisuales, fotográficos, fílmicos, informáticos, orales y sonoros.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      tema: 'Sistema de gestión de documentos electrónicos de archivo',
+      referencia:
+        'Ministerio de Cultura [MinCultura]. (s. f.). SGDEA Sistema de Gestión de Documentos Electrónicos de Archivo.',
+      tipo: 'Infografía',
+      link:
+        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/5_Consulte/Recursos/Infografias/infoSGDEA.pdf',
     },
     {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      tema: 'Gestión Documental & Gobierno Electrónico',
+      referencia:
+        'Zapata, C. (2015). Gestión documental & gobierno electrónico: problemas, retos y oportunidades para los profesionales de información. Archivo General de la Nación Colombia.',
+      tipo: 'Pdf Publicación',
+      link:
+        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/5_Consulte/Recursos/Publicacionees/GestionDocumentalYGobiernoElectronico.pdf',
     },
   ],
   creditos: {
@@ -306,6 +292,26 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Fabiola Sierra Sarmiento',
+        cargo: 'Experto temático ',
+        centro: 'CIES Regional Norte de Santander',
+      },
+      {
+        nombre: 'Luis Fernando Botero Mendoza',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Álix Cecilia Chinchilla Rueda',
+        cargo: 'Asesor metodológico',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de Estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -320,41 +326,42 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jorge Enrique Haylock Calderín',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

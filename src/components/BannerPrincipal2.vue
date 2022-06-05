@@ -47,7 +47,7 @@ export default {
   height: 100%
   width: 100%
 .banner-principal__info
-  padding-left: 80px  !important
+  padding-left: 40px  !important
   z-index: 3
 .banner-principal
   p, h1, h2, h3, h4, h5, h6

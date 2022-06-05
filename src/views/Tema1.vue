@@ -8,7 +8,7 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    Muestras
+    //- Muestras
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
@@ -30,14 +30,14 @@
     p.mb-5 Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció:
     p.mb-5.text-center Los tres principales usos de un documento son los siguientes:
     .row.fondo2.justify-content-center
-      .col-xxl-8.col-sm-8.col-10
+      .col-xxl-8.col-sm-10.col-11
         img.encima(src='@/assets/curso/tema1/figura2.svg')(data-aos="fade-down")
       .row.justify-content-end
-        .col-xxl-8.col-lg-8.col-sm-9.col-10(data-aos="slide-left")
+        .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="slide-left")
           p.my-5.encima Los documentos se han mantenido en formato físico durante mucho tiempo, pero desde hace algunos años se pueden contener de manera digital en archivos de diferentes formatos. Todos los documentos digitales o análogos requieren como mínimo los siguientes 4 elementos:
-      .row.justify-content-center.encima
+      .row.justify-content-center.align-items-center
         .col-xxl-5.col-sm-6.col-8
-          img.subir(src='@/assets/curso/tema1/imagen1.png')(data-aos="slide-right")
+          img.mb-4(src='@/assets/curso/tema1/imagen1.png')(data-aos="slide-right")
         .col-xxl-7.col-sm-10.col-11(data-aos="slide-left")
           ul.lista-ul--color
             li 
@@ -60,7 +60,7 @@
       figcaption Video: Leyenda del video
     p.my-5.text-center La misión principal del documento de archivo es la protección de la información; por lo general, contiene los siguientes datos:
     .row.justify-content-center
-      .col-xxl-7.col-lg-7.col-sm-8.col-10(data-aos="slide-right")
+      .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="slide-right")
          img(src='@/assets/curso/tema1/archivo.svg')
     p.my-5.text-center Por otra parte, se tienen los documentos digitales, que también se almacenan con el mismo fin que los documentos físicos. Observe algunas características de este tipo de archivo digital:
     figure.mb-5(data-aos="zoom-in-up")
@@ -70,7 +70,7 @@
 
     p.my-5.text-center Los documentos digitales deben tener los siguientes datos:
     .row.justify-content-center
-      .col-xxl-7.col-lg-7.col-sm-8.col-10(data-aos="slide-right")
+      .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="slide-right")
         img(src='@/assets/curso/tema1/electronico.svg')
     .row.justify-content-center
       .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-right")
@@ -83,9 +83,9 @@
       .col-xxl-3
         p Los diferentes tipos de archivos y el estado en el que se pueden encontrar se presentan a continuación: 
       .col-xxl-3.col-sm-6.col-lg-3.mb-4.mb-lg-0.bajar
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.p-4.tamanotarjeta
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5.col-sm-7.col-md-7.col-lg-7.col-xl-7
               figure
                 img(src='@/assets/curso/tema1/boton1.svg')
 
@@ -94,9 +94,9 @@
           br
 
       .col-xxl-3.col-sm-6.col-lg-3.mb-4.mb-lg-0.bajar
-        .tarjeta--boton.color-primario.p-4
+        .tarjeta--boton.color-primario.p-4.tamanotarjeta
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5.col-sm-7.col-md-7.col-lg-7.col-xl-7
               figure
                 img(src='@/assets/curso/tema1/boton2.svg')
 
@@ -104,9 +104,9 @@
           p.text-center Documentos que han disminuido su consulta, de acuerdo con las Tablas de Retención Documental (TRD).
 
       .col-xxl-3.col-sm-6.col-lg-3.mb-4.mb-lg-0.bajar
-        .tarjeta--boton.color-primario.text-white--hover.p-4
+        .tarjeta--boton.color-primario.text-white--hover.p-4.tamanotarjeta
           .row.justify-content-center.mb-3
-            .col-7
+            .col-5.col-sm-7.col-md-7.col-lg-7.col-xl-7
               figure
                 img(src='@/assets/curso/tema1/boton3.svg', alt='Texto que describa la imagen')
 
@@ -114,7 +114,7 @@
           p.text-center Almacena la información que amerita su conservación total, de acuerdo con lo descrito en las TRD.
 
     .row.justify-content-center.align-items-center.fondo4.my-5
-      .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right") 
+      .col-xxl-7.col-lg-7.col-sm-11.col-11(data-aos="fade-down-right") 
         p La archivística es 
           span.resaltar.text-bold “el estudio teórico y práctico de los principios, procedimientos y problemas concernientes al almacenamiento de documentos, buscando que dicha documentación, se mantenga en el tiempo, pueda ser consultada y clasificada” 
           span (Archivosagil, 2018); este estudio arroja como resultado que
@@ -175,11 +175,11 @@
           span.text-small Ejemplo de Principio de orden original
         img.mb-4(src='@/assets/curso/tema1/imagen5.png')
       .row
-        .col-xxl-4.col-lg-4.col-sm-5.col-6(data-aos="slide-left")             
-          p.fondo6.padTitulo.text-bold Clasificación de los documentos
+        .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="slide-left")             
+          p.fondo6.padTitulo.text-bold.ancho1 Clasificación de los documentos
 
       .row.justify-content-center
-        .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left") 
+        .col-xxl-6.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left") 
           p La buena gestión de la información que ingresa a la entidad y que se produce en ella nace del uso que se le dé al soporte, la identificación de procedencia y de la finalidad con que se redacta el mensaje. No todos los soportes son documentos de archivo o documentos electrónicos, la información se puede resguardar en un plano, en una fotografía, en un video, incluso, puede tener aspecto multimedia, en un audio, etc. A todos estos datos se les debe garantizar los mismos procedimientos archivísticos para su conservación. 
           p Una fotografía puede ser el anexo de una solicitud que se radica en ventanilla única, se registra y se distribuye a la unidad administrativa competente. En algunos casos, esta información no llega completa al área donde se elabora la respuesta, lo que perjudica el concepto que emite el funcionario competente. Lo anterior es el talón de Aquiles de las unidades de correspondencia, que, a falta de formatos, actividades y procedimientos, dejan toda la responsabilidad a la memoria del responsable de la gestión de documentos. En la siguiente infografía, se presenta la clasificación de los documentos:
         .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="fade-down")
@@ -232,8 +232,8 @@
             p Contables, contratos, etc.
 
     .row.my-5
-      .col-xxl-4.col-lg-4.col-sm-5.col-6(data-aos="slide-left")             
-        p.fondo6.padTitulo.text-bold Características del documento.
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="slide-left")             
+        p.fondo6.padTitulo.text-bold Características del documento
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down-left") 
       .row.justify-content-center(titulo="Encabezado y pie de página")
@@ -257,11 +257,11 @@
         .cajon.color-acento-contenido.p-4.mb-4.fondo9
           p Tanto quien elabora el documento como el funcionario de la unidad de correspondencia que lo recibe son responsables de velar porque los documentos presentados evidencien estos elementos para su fácil identificación y organización documental. Si por algún caso el documento carece de esta información, significa que la persona a cargo no validó la información y está infringiendo el proceso de gestión documental. Ante esta situación, se encuentra constantemente el proceso de capacitación, para que los empleados responsables del proceso lo hagan cumplir a cabalidad, para dar trámite sin perjudicar a otros participantes del proceso.
 
-    .row.my-5
-      .col-xxl-3.col-lg-3.col-sm-4.col-5(data-aos="slide-left")                  
-        p.fondo6.padTitulo.text-bold Unidad documental.
+    .row
+      .col-xxl-4.col-xl-4.col-lg-5.col-md-6.col-sm-7.col-4(data-aos="slide-left")                  
+        p.fondo6.padTitulo.text-bold.ancho2 Unidad documental.
 
-    p.my-5 Tener la disponibilidad de la información es establecer expedientes que cumplan con las series y subseries documentales descritas en el instrumento archivístico de las Tablas de Retención Documental (TRD), descifrando los expedientes complejos o simples, como se evidencia a continuación en la gráfica de tipos de unidades documentales:
+    p.mb-5 Tener la disponibilidad de la información es establecer expedientes que cumplan con las series y subseries documentales descritas en el instrumento archivístico de las Tablas de Retención Documental (TRD), descifrando los expedientes complejos o simples, como se evidencia a continuación en la gráfica de tipos de unidades documentales:
 
     .row.justify-content-center(data-aos="fade-down-left") 
       .col-xxl-6.col-lg-6.col-sm-8.col-10
@@ -271,8 +271,8 @@
         img.mb-4(src='@/assets/curso/tema1/figura4.svg')
     p.mb-5 Una unidad documental compleja es aquella conformada por varios tipos documentales, estos documentos son diferentes, pero hacen parte de la misma unidad de documentos, como se ve en la siguiente tabla:
 
-    .row.justify-content-center.fondo2
-      .col-xxl-6.col-lg-6.col-sm-8.col-10(data-aos="fade-down-left") 
+    .row.justify-content-center.fondo2.correr-izq2
+      .col-xxl-6.col-lg-6.col-sm-8.col-10.ms-5(data-aos="fade-down-left") 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3
           span.text-small Unidad documental compleja
@@ -307,21 +307,21 @@
                           i.lista-ul__vineta
                           | Entre otros.
 
-      p.my-5(data-aos="fade-down-left")  Las unidades documentales complejas suelen confundir a quien clasifica, ordena y describe la información para la conformación del expediente, ya que necesita conocer las funciones de la unidad administrativa que da lugar al expediente de archivo o el expediente electrónico, y además sus tipos documentales varían según la estructura, pero no se pueden separar, ya que forman parte de un mismo proceso. 
+      p.mb-5.ms-5(data-aos="fade-down-left")  Las unidades documentales complejas suelen confundir a quien clasifica, ordena y describe la información para la conformación del expediente, ya que necesita conocer las funciones de la unidad administrativa que da lugar al expediente de archivo o el expediente electrónico, y además sus tipos documentales varían según la estructura, pero no se pueden separar, ya que forman parte de un mismo proceso. 
       .row.justifycontent-center
-        .col-xxl-5.col-lg-5.col-sm-6.col-10(data-aos="fade-down-left") 
+        .col-xxl-5.col-lg-5.col-sm-6.col-10.ms-5(data-aos="fade-down-left") 
           img.mb-4(src='@/assets/curso/tema1/figura5.svg')
-        .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right") 
+        .col-xxl-7.col-lg-7.col-sm-10.col-11.ms-5(data-aos="fade-down-right") 
           .cajon.color-acento-contenido.p-4.mb-4.fondo9
             p Un ejemplo cotidiano de falencia presentada en las unidades de correspondencia es la apertura de expedientes bajo la denominación de correspondencia recibida y correspondencia enviada, un fatal error que, como nace en el centro de administración de documentos, se lleva a las demás oficinas productoras, ocasionando una ruta de desorganización y pérdida de acceso a la información de manera oportuna.
           p Las Unidades Documentales, en adelante UD, son creadas a razón de un mismo formato o estructura en el que se facilita la integración al expediente; por ejemplo, se pueden citar las resoluciones en las que sustentan un mismo modelo acorde con la política institucional, lo único que varía de este documento sería: número de resolución, fechas y lo que resuelve.         
           .row.justify-content-center
-            .col-xxl-5
+            .col-xxl-5.col-lg-5.col-sm-6.col-8
               img.mb-4(src='@/assets/curso/tema1/figura6.svg')
-            .col-xxl-5.col-lg-5.col-sm-8.col-10
+            .col-xxl-5.col-lg-5.col-sm-6.col-8
               img.mb-4(src='@/assets/curso/tema1/figura7.svg')
-    p.mt-5(data-aos="fade-down-left")  Las unidades documentales complejas o simples están constituidas por el cumplimiento de las funciones, para no separar procesos que vinculan información. 
-    p.mb-5(data-aos="fade-down-left")  La tipología documental que se genera en las unidades de correspondencia va en razón de las comunicaciones oficiales, por ello, toda comunicación que ingrese o se despache tiene que transitar de acuerdo con lo establecido en el  ciclo PHVA: planear, hacer, verificar y actuar. Para la producción documental, se relaciona con:
+      p.mt-5.ms-5(data-aos="fade-down-left")  Las unidades documentales complejas o simples están constituidas por el cumplimiento de las funciones, para no separar procesos que vinculan información. 
+      p.mb-5.ms-5(data-aos="fade-down-left")  La tipología documental que se genera en las unidades de correspondencia va en razón de las comunicaciones oficiales, por ello, toda comunicación que ingrese o se despache tiene que transitar de acuerdo con lo establecido en el  ciclo PHVA: planear, hacer, verificar y actuar. Para la producción documental, se relaciona con:
     .row.justify-content-center
       .col-xxl-10.col-lg-10.col-sm-10.col-11
         .tabla-a.color-acento-botones.mb-5(data-aos="fade-down-left") 
@@ -349,30 +349,30 @@
 
     p.my-5(data-aos="fade-down-left")  Para que haya un adecuado proceso en las unidades de correspondencia, previamente existe una planificación de cada una de las etapas que intervienen en los procesos de documentación, partiendo de lo que realiza la persona que recibe y radica un documento físico o electrónico, hasta la persona que archiva el documento en el expediente. Las competencias de administración documental son el eslabón para que empecemos a examinar todo lo que ingresa y sale de la entidad, así como el recorrido que hace hasta llegar a su disposición final. Si lo anterior no es apoyado en las competencias de la administración documental, se está condenado a cualquier amenaza cibernética, siniestro natural o biológico en el que pueda verse afectada la información; por ende, se indica la cooperación de cada competencia con el flujo de la información:
 
-  .row.mb-5(data-aos="fade-down-left")
-    .col-sm-4.col-xl-4.mb-4.mb-xl-0
-      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido
-            img(src='@/assets/curso/tema1/imagen25.svg')
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen7.jpg')})`}")
+    .row.mb-5(data-aos="fade-down-left")
+      .col-sm-4.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img(src='@/assets/curso/tema1/imagen25.svg')
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen7.jpg')})`}")
 
-    .col-sm-4.col-xl-4.mb-4.mb-xl-0
-      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido
-            img(src='@/assets/curso/tema1/imagen26.svg')
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen8.jpg')})`}")
+      .col-sm-4.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img(src='@/assets/curso/tema1/imagen26.svg')
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen8.jpg')})`}")
 
-    .col-sm-4.col-xl-4.mb-4.mb-xl-0
-      .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-        .indicador--hover(v-if="indicadorTarjetaSlide")
-        .tarjeta-slide__contenedor
-          .tarjeta-slide__contenido
-            img(src='@/assets/curso/tema1/imagen9.jpg') 
-          .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen27.svg')})`}")
+      .col-sm-4.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido
+              img(src='@/assets/curso/tema1/imagen9.svg') 
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen27.svg')})`}")
 
     p.my-5 Los detalles del almacenamiento con el tiempo han ido evolucionando, y para dar detalle a cada necesidad, se relacionan las formas de almacenar los documentos físicos y digitales:
     .row.justify-content-center
@@ -390,7 +390,7 @@
                 td.p-3 El almacenamiento de la información que se produce en este ambiente no es tan diferente al físico, ya que la documentación electrónica también atraviesa por los procedimientos de clasificación, ordenación y descripción; dicho en otras palabras, el nombre de la carpeta debe coincidir con la serie documental de la dependencia y los archivos dentro estarán ordenados teniendo en cuenta la secuencia del trámite (fechas).
               tr
                 td.p-3 Para el caso de expedientes, se utilizan las carpetas cuatro aletas, las cuales son costosas pero cumplen con la normatividad en cuanto a las condiciones de seguridad y, aún más beneficioso, con la integridad del documento. Si el soporte documental es un mapa, se debe hacer uso de las planotecas para su conservación. 
-                td.p-3 La información que se recopila de los canales virtuales es transportada a los sistemas de gestión de la información o software para dar respuesta. Periódicamente, se hacen los backups (copias de seguridad), se almacenan en la nube, dependiendo de la necesidad de la organización.
+                td.p-3 La información que se recopila de los canales virtuales es transportada a los sistemas de gestión de la información o <i>software</i> para dar respuesta. Periódicamente, se hacen los backups (copias de seguridad), se almacenan en la nube, dependiendo de la necesidad de la organización.
               tr
                 td.p-3 Todo documento que conforme el expediente cuenta con su procedimiento de clasificación y ordenación, para que se almacene en las diferentes cajas de archivo inactivo con su identificación (rótulo) para la recuperación de la información.
                 td.p-3 El trabajo de almacenamiento lo lideran los ingenieros de sistemas, quienes conforman el comité de archivo.
@@ -403,7 +403,7 @@
           span al mantenimiento, la 
           span.text-bold relación 
           span debe ser extrema, no solo por mantener el archivo distante de amenazas como roedores o humedad, sino que se debe prevenir la pérdida o los ingresos exteriores al sistema; para eso, se recomienda establecer los permisos dentro de la entidad para la visualización según las categorías de la información, que, para su conocimiento, es de tres tipos:  pública, clasificada, reservada. Por ejemplo, hay cierta información que solo puede conocer quien la genera, no habrá permisos para las demás áreas  en cuanto a visualización y menos a su publicación.
-        .row.justify-content-end.fondo12.correr-izq
+        .row.justify-content-end.fondo12.correr-izq3
           .col-xxl-7.col-md-7.col-sm-7.col-7
             p.text-bold Nota importante:
             p el mantenimiento de los archivos incluye su usabilidad en el tiempo y su facilidad de revisión, por eso, para el caso de los archivos digitales, se debe tener en cuenta el tipo de formato de archivo que se guarda, para que no pierda su visibilidad; por lo general, se usan archivos genéricos de imagen de tipo JPEG o de lectura PDF.
@@ -499,14 +499,14 @@
         .col-md-7
           figure
             img(src='@/assets/curso/tema1/imagen15.png')
-    .row.fondo2
-      .col-xxl-4.my-5.col-lg-4.col-sm-5.col-6(data-aos="slide-left")        
+    .row.fondo2.correr-izq2
+      .col-xxl-4.my-5.col-lg-5.col-md-7.col-sm-11.col-12.ms-5(data-aos="slide-left")        
         p.fondo6.padTitulo.text-bold Despacho de documentos
-      .row.justify-content-center
+      .row.justify-content-center.ms-5
         .col-xxl-5.col-lg-5.col-sm-7.col-8(data-aos="fade-down-left")
           img(src='@/assets/curso/tema1/figura9.svg')
         .col-xxl-5.col-lg-5.col-md-10.col-sm-10.col-11(data-aos="fade-down-right")
-          p El despacho de documentos inicia cuando la oficina productora remite la comunicación a la unidad de correspondencia para que esta se encargue de hacer el despacho; los funcionarios de la unidad de correspondencia proceden a revisar que la documentación tenga las especificaciones requeridas: membrete de la entidad, número de copias, el adecuado embalaje y el responsable de firmar el documento.
+          p.mt-4 El despacho de documentos inicia cuando la oficina productora remite la comunicación a la unidad de correspondencia para que esta se encargue de hacer el despacho; los funcionarios de la unidad de correspondencia proceden a revisar que la documentación tenga las especificaciones requeridas: membrete de la entidad, número de copias, el adecuado embalaje y el responsable de firmar el documento.
           p Con esta verificación, se le inserta el radicado de salida ubicado en el extremo superior derecho, para oficializar el envío; en este procedimiento, se resalta que la documentación a la que se le imprime un radicado de salida es la que ha cumplido con lo relacionado, dicho en otras palabras, no puede haber radicados de salida en documentos que aún están pendientes por la firma del funcionario competente o que les falta algún anexo, ya que la fecha de este radicado debe ser lo más cercana posible al envío.
         .row.justify-content-center
           .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left")
@@ -518,7 +518,7 @@
         p.mt-5(data-aos="slide-right") Una de las habilidades del responsable de la unidad de correspondencia es saber seleccionar el medio seguro y oportuno para hacerle llegar la comunicación al ciudadano o usuario. Se debe diligenciar la planilla de control de despacho de correspondencia para manifestar que se dejó constancia de esta acción.
         p.mb-5(data-aos="slide-right") A continuación, se presenta una planilla de control de documentos básica, que puede usar para sus buenas prácticas:
 
-    .tabla-a.mb-5(data-aos="fade-down-right")
+    .tabla-a(data-aos="fade-down-right")
       table
         tbody
           tr
@@ -546,7 +546,7 @@
             td
             td
     .row
-      .col-xxl-4.my-5.col-lg-4.col-sm-5.col-6(data-aos="slide-left")        
+      .col-xxl-4.col-lg-5.col-md-9.col-sm-11.col-12.mt-5(data-aos="slide-left")        
         p.fondo6.padTitulo.text-bold Radicación de documentos
 
     p.mb-5(data-aos="fade-down-left") Tal como lo menciona Analítica (2019), se conoce como radicación al 
@@ -560,15 +560,15 @@
             figure
               img(src='@/assets/curso/tema1/figura10.svg')
 
-          .tarjeta.fondohistograma2.p-3(x="35%" y="21%" numero="")
+          .tarjeta.fondohistograma2.p-3(x="15%" y="32%" numero="")
             .h3.mb-2 Recepción
             p En cada inicio de vigencia, se cuenta con nueva radicación consecutiva. Siempre se recibe y se radica información, a pesar de no haber energía eléctrica o sistema computarizado. Para este caso, el funcionario tiene la facultad de continuar recibiendo documentos de manera manual, según el consecutivo en el que haya quedado, para no retrasar su trabajo y la atención al usuario. Cuando retorne la energía eléctrica, hará la respectiva gestión de aquellos documentos que se radicaron manualmente.
 
-          .tarjeta.fondohistograma2.p-3(x="53%" y="21%" numero="")
+          .tarjeta.fondohistograma2.p-3(x="50%" y="32%" numero="")
             .h5.mb-2 Copia
             p Una vez se radique el documento físico, se hace entrega de la copia al usuario, para que pueda hacer seguimiento a la comunicación a través del número consecutivo. En la radicación de documentos electrónicos, una vez se haya oficializado el trámite con la entidad, se envía al sistema de gestión documental para la distribución electrónica de la información a la unidad administrativa competente.
 
-          .tarjeta.fondohistograma2.p-3(x="71%" y="21%" numero="")
+          .tarjeta.fondohistograma2.p-3(x="84.5%" y="32%" numero="")
             .h5.mb-2 Compromiso
             p El compromiso de la entidad para tramitar la correspondencia inicia en el momento en que se radica el documento. Previamente, tenga en cuenta los siguientes aspectos:
             ul.lista-ul--color
@@ -589,11 +589,11 @@
                 | Que, en la cuestión de documentos electrónicos, estos sean legibles.
 
     p.mb-5 Según lo contemplado en el Acuerdo 060 del Archivo General de la Nación (2001), en el Art. 2, la radicación de comunicaciones oficiales es la asignación de datos tales como: fecha y hora de ingreso o envío de la entidad a documentos recibidos de parte del usuario o producidos por un funcionario de la entidad. Es así como el radicado tiene la función de apropiar el documento externo, y también es a partir de la fecha de este sello radicado que se empiezan a contar los tiempos para la producción de la respuesta.
-    .row.justify-content-center.align-items-center.encima.fondo5
-      .col-xxl-5.col-lg-5.col-sm-7.col-9.encima(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.encima.fondo5.correr-der2
+      .col-xxl-5.col-lg-5.col-sm-7.col-9.encima.ms-0.mt-3(data-aos="fade-left")
         img.subir2(src='@/assets/curso/tema1/imagen17.png')
       .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right")
-        .row.justify-content-end.fondo12.correr-izq.subir2
+        .row.justify-content-end.fondo12.correr-izq3.subir2.me-5.mt-3
           .col-xxl-7.col-md-7.col-sm-7.col-7.py-4.encima
             p.text-bold Nota:
             p No se pueden guardar ni reservar números de radicación, en cumplimiento con lo señalado en el Acuerdo 060 expedido por el Archivo General de la Nación (2001).
@@ -605,7 +605,7 @@
         .col-xxl-4.col-lg-4.col-sm-7.col-9(data-aos="fade-left")
           img(src='@/assets/curso/tema1/figura11.svg')
         .col-xxl-8.col-lg-8.col-sm-10.col-11
-          ul.lista-ul--color
+          ul.lista-ul--color.mt-4
             li 
               i.fas.fa-book-open
               | Registros de planillas de control.
@@ -649,18 +649,18 @@
               tr
                 td.ps-4 Norma Técnica Colombiana NTC-4436
                 td.ps-4 Es usada por las empresas que utilizan con mucha más frecuencia el documento en físico, para otorgar calidad en el medio que se utiliza para plasmar el mensaje y, asimismo, conservar este soporte documental en el tiempo, por lo que en la norma aconsejan el uso de papel de alta durabilidad, ya que allí se describen los componentes que tienen que considerarse para la compra de este tipo de papel para los documentos de archivo.
-    .row.justify-content-center.align-items-center.fondo2
+    .row.justify-content-center.align-items-center.fondo2.correr-izq2
       separador
-      #alerta.titulo-segundo.color-acento-contenido(data-aos="fade")
+      #alerta.titulo-segundo.color-acento-contenido.ms-5(data-aos="fade")
         h2 1.5. Servicio de alerta de correspondencia, concepto y procedimiento
       .col-xxl-3.col-lg-3.col-sm-5.col-7(data-aos="fade-down-left")
-        img(src='@/assets/curso/tema1/imagen18.png')
+        img.ms-5(src='@/assets/curso/tema1/imagen18.png')
       .col-xxl-9.col-lg-9.col-sm-10.col-11(data-aos="fade-down-right")
-        p Dentro de las funciones de la Unidad de Correspondencia, se encuentra realizar seguimiento a las comunicaciones recibidas, para dar respuestas oportunas en atención del servicio al usuario. Este servicio es una agenda en la que se inspecciona cuáles documentos no han sido tramitados aún por la oficina productora y, de esta manera, brindar el informe al representante legal o quien haga las veces de principal autoridad. 
-        p En las empresas que realizan procesos de control de manera manual y que la gran mayoría de documentos que se reciben son en papel, basta con observar las planillas de control, realizando un descargue de las respuestas tramitadas, es decir, se realiza un cruce de información con cada unidad administrativa de radicados de entrada con radicados de salida y es así como se obtiene la información de las comunicaciones a las que aún no se les ha dado respuesta. Esta actividad es realmente efectiva, ya que puede ser que el funcionario competente traspapeló dicha comunicación, pero, en el cumplimiento de las funciones, el responsable de la unidad de correspondencia le recuerda la documentación que tiene pendiente por trámite.
-      .row.justify-content-center.align-items-center.mt-4
+        p.ms-5.mt-4 Dentro de las funciones de la Unidad de Correspondencia, se encuentra realizar seguimiento a las comunicaciones recibidas, para dar respuestas oportunas en atención del servicio al usuario. Este servicio es una agenda en la que se inspecciona cuáles documentos no han sido tramitados aún por la oficina productora y, de esta manera, brindar el informe al representante legal o quien haga las veces de principal autoridad. 
+        p.ms-5 En las empresas que realizan procesos de control de manera manual y que la gran mayoría de documentos que se reciben son en papel, basta con observar las planillas de control, realizando un descargue de las respuestas tramitadas, es decir, se realiza un cruce de información con cada unidad administrativa de radicados de entrada con radicados de salida y es así como se obtiene la información de las comunicaciones a las que aún no se les ha dado respuesta. Esta actividad es realmente efectiva, ya que puede ser que el funcionario competente traspapeló dicha comunicación, pero, en el cumplimiento de las funciones, el responsable de la unidad de correspondencia le recuerda la documentación que tiene pendiente por trámite.
+      .row.justify-content-center.align-items-center.mt-4.ms-5
         .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left")
-          p El control automatizado para generar el servicio de alerta se realiza mediante las herramientas que ofrece el sistema de gestión documental o software que maneja la entidad para la administración documental. El representante legal o principal autoridad podrá revisar, en el momento que lo desee, a través de la descarga del informe sobre los avances en el trámite de correspondencia, y determinará las unidades administrativas con bandejas de entrada en cero y aquellas cuyas solicitudes ya se encuentran tardías por respuesta; este es un control veraz hacia la eficacia de la empresa. En muchas empresas, se realizan planes de contingencia para subsanar bandejas de entrada de unidades administrativas con más de 100 correos represados en el sistema de gestión documental. 
+          p El control automatizado para generar el servicio de alerta se realiza mediante las herramientas que ofrece el sistema de gestión documental o <i>software</i> que maneja la entidad para la administración documental. El representante legal o principal autoridad podrá revisar, en el momento que lo desee, a través de la descarga del informe sobre los avances en el trámite de correspondencia, y determinará las unidades administrativas con bandejas de entrada en cero y aquellas cuyas solicitudes ya se encuentran tardías por respuesta; este es un control veraz hacia la eficacia de la empresa. En muchas empresas, se realizan planes de contingencia para subsanar bandejas de entrada de unidades administrativas con más de 100 correos represados en el sistema de gestión documental. 
           p Aunque, por lo general, este informe es agilizado por la unidad de correspondencia para presentarlo ante la dirección.
         .col-xxl-4.col-lg-4.col-sm-6.col-7(data-aos="fade-down-right")
           img(src='@/assets/curso/tema1/figura12.svg')
@@ -682,44 +682,44 @@
       h2 1.6. Buenas prácticas de salud en el trabajo para la gestión de documentos
     p.my-5(data-aos="fade-down-right") Los elementos o equipos de protección personal (EPP) se requieren para el amparo de salud en el ámbito de las funciones que realiza el colaborador. Quienes ejecutan funciones de la unidad de correspondencia pueden presentar enfermedades con la manipulación de grandes cantidades de papel, que van desde problemas respiratorios hasta un sistema inmunológico débil. Por ello, la persona encargada de la seguridad y salud en el trabajo sensibiliza sobre el uso de elementos de protección personal en unidades de correspondencia, tales como: guantes, tapabocas, antibacterial, entre otros que favorezcan integralmente la inmunidad del funcionario. Los siguientes son los elementos básicos a tener en cuenta como artículos básicos de trabajo:
 
-    SlyderA.fondo14(tipo="b")(data-aos="fade-down-left")
-      .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+    SlyderA.fondo14.mb-5(tipo="b")(data-aos="fade-down-left")
+      .row.justify-content-between.p-5.align-items-center
+        .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
           h4.mb-5 Guantes
           p la entidad dotará de este implemento a las unidades de correspondencia, archivo y demás que así lo requieran. Por lo general, los que entregan la entidad son de látex, aunque algunos funcionarios pueden ser alérgicos, por lo que la empresa opta por hacer pedidos de guantes de vinilo; lo cierto es que cualquiera de los dos cumple con la función de proteger las manos que están en constante contacto con el documento. Los riesgos de no utilizar guantes pueden ser hongos, inflamaciones en los dedos y alergias provocadas por contaminación.
       
-        .col-md-7.pe-5
+        .col-xxl-6.col-xl-6.col-lg-5.col-md-1.col-sm-1.col-1.pe-5
           figure
-            img(src='@/assets/curso/tema1/imagen20.png')
+            img.nomostrar1(src='@/assets/curso/tema1/imagen20.png')
 
       .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+        .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
           h4.mb-5 Tapabocas
           p Utilizados por cualquier unidad administrativa que, por razones de humedad, polvo y demás contaminantes, demande su uso. El tapabocas protege la zona de la nariz por donde ingresa el aire al cuerpo, y bloquea el acceso de polvo. Este elemento de protección personal beneficia, a modo de obstáculo, el frotar las manos por la boca o realizar una mala práctica con la saliva, como es el de utilizarla para facilitar el conteo de las páginas de un expediente o foliación.
-        .col-md-7
+        .col-xxl-6.col-xl-6.col-lg-5.col-md-1.col-sm-1.col-1
           figure
-            img(src='@/assets/curso/tema1/imagen21.png')
+            img.nomostrar1(src='@/assets/curso/tema1/imagen21.png')
 
       .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+        .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
           p Antibacterial, jabones y toallas para la limpieza de manos después de cada actividad. La ventanilla única de atención presencial ha de contar con un vidrio o cristal que separe o divida al funcionario del usuario al que presta atención. 
       
-        .col-md-7
+        .col-xxl-6.col-xl-6.col-lg-5.col-md-1.col-sm-1.col-1
           figure
-            img(src='@/assets/curso/tema1/imagen22.png')
+            img.nomostrar1(src='@/assets/curso/tema1/imagen22.png')
 
       .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+        .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
           h4.mb-5 Aire fresco
           p Si bien no se considera un EPP, es fundamental para la salud física del colaborador. Se recomienda que la oficina cuente con una fuente de aire fresco, como una ventana, o en caso de no ser así, que se hagan pausas activas para ir a respirar aire fresco a un sitio donde sí exista.
-        .col-md-7
+        .col-xxl-6.col-xl-6.col-lg-5.col-md-1.col-sm-1.col-1
           figure
-            img(src='@/assets/curso/tema1/imagen23.png')
+            img.nomostrar1(src='@/assets/curso/tema1/imagen23.png')
     .row.justify-content-between.mt-5.fondo16(data-aos="fade-down-right")
-      .col-xxl-7.col-lg-7.col-sm-10.col-11
-        p.p-3.me-5 Una afectación importante es la salud mental del responsable de la unidad de correspondencia, quien se encuentra todos los días en trabajo bajo presión y con filas interminables de recepción de comunicaciones; esta problemática trae consigo la desconcentración en sus actividades, lleva problemas del trabajo a la casa y trae problemas de la casa al trabajo que perjudican la secuencia del proceso.  Es fundamental el uso de pausas activas y condiciones de trabajo bien definidas para evitar que esto suceda.
-        p.mt-4 No se recomienda, dentro de las prácticas documentales, dejar todo a la memoria. Algunos colaboradores trabajan basados en el compromiso de la memoria, ellos no llevan una agenda, no trazan un plan de trabajo, los recordatorios los llevan a su disco duro del cerebro, creen acordarse de todo lo que ejecutan, y esto los lleva a dejar pasar compromisos importantes, teniendo a su disposición todas las técnicas de organización y alerta de las que se habla en este programa.
-      .col-xxl-5.col-lg-5.col-sm-7.col-8.encima(data-aos="fade-down-left")
+      .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-11.col-11
+        p.p-3 Una afectación importante es la salud mental del responsable de la unidad de correspondencia, quien se encuentra todos los días en trabajo bajo presión y con filas interminables de recepción de comunicaciones; esta problemática trae consigo la desconcentración en sus actividades, lleva problemas del trabajo a la casa y trae problemas de la casa al trabajo que perjudican la secuencia del proceso.  Es fundamental el uso de pausas activas y condiciones de trabajo bien definidas para evitar que esto suceda.
+        p.mt-3 No se recomienda, dentro de las prácticas documentales, dejar todo a la memoria. Algunos colaboradores trabajan basados en el compromiso de la memoria, ellos no llevan una agenda, no trazan un plan de trabajo, los recordatorios los llevan a su disco duro del cerebro, creen acordarse de todo lo que ejecutan, y esto los lleva a dejar pasar compromisos importantes, teniendo a su disposición todas las técnicas de organización y alerta de las que se habla en este programa.
+      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-7.col-8.encima(data-aos="fade-down-left")
         img.subir2(src='@/assets/curso/tema1/imagen24.png')
 
 
