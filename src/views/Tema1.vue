@@ -371,7 +371,7 @@
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/imagen9.svg') 
+              img(src='@/assets/curso/tema1/imagen9.svg')
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen27.svg')})`}")
 
     p.my-5 Los detalles del almacenamiento con el tiempo han ido evolucionando, y para dar detalle a cada necesidad, se relacionan las formas de almacenar los documentos físicos y digitales:
