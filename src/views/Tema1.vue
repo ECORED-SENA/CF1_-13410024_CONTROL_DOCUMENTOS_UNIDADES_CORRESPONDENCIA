@@ -16,7 +16,9 @@
     .row.justify-content-center
       .col-xl-7.col-sm-12(data-aos="slide-right")
         p La producción, recepción y distribución de documentos ha llamado la atención notablemente, es así que los esfuerzos por controlar la pérdida de información no se han hecho esperar, desde la activación de nuevos procesos, aplicación y conocimiento de la normatividad, hasta las formaciones que permiten entregarle al responsable de la correspondencia las herramientas necesarias y actuales para evitar que negligencias como la desconcentración o la falta de aplicación de planillas en los flujos de información de la entidad lleven al caos y detrimento del patrimonio documental.
-        p.mb-5 La gestión de  la información se hace a partir de espacios ordenados que permitan la claridad en su búsqueda específica de manera física o digital, siendo necesario su aislamiento y distribución. Tal como lo dice la Universidad de Málaga (2018), se busca clasificar y ordenar esa información vuelta documentos en una buena disposición, “clasificar un documento significa agruparlo por conceptos o asuntos concretos; y ordenar un documento quiere decir establecer una secuencia cronológica, alfabética o numérica dentro de cada grupo y situarlo físicamente en el espacio”. En correspondencia, se abordan a continuación los conceptos fundamentales requeridos.
+        p.mb-5 La gestión de  la información se hace a partir de espacios ordenados que permitan la claridad en su búsqueda específica de manera física o digital, siendo necesario su aislamiento y distribución. Tal como lo dice la Universidad de Málaga (2018), se busca clasificar y ordenar esa información vuelta documentos en una buena disposición, “
+          span.text-bold clasificar un documento significa agruparlo por conceptos o asuntos concretos; y ordenar un documento quiere decir establecer una secuencia cronológica, alfabética o numérica dentro de cada grupo y situarlo físicamente en el espacio
+          span ”. En correspondencia, se abordan a continuación los conceptos fundamentales requeridos.
       .col-xl-5.col-sm-12.fondo1(data-aos="zoom-in-up")
         img.mt-5(src='@/assets/curso/tema1/figura1.svg')
     separador
@@ -234,24 +236,24 @@
     .row.my-5
       .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="slide-left")             
         p.fondo6.padTitulo.text-bold Características del documento
-
+    p.mb-5 La mayoría de las empresas vienen liderando capacitaciones al talento humano para contribuir con esta labor, ya que la comunicación que se despacha necesita describir con precisión y lenguaje común la información que recibirá el usuario. Una comunicación pueda ser considerada un documento que atesore la entidad, siempre y cuando quienes elaboran el mensaje no descuiden los siguientes detalles:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down-left") 
       .row.justify-content-center(titulo="Encabezado y pie de página")
         .col-md-11.mb-4.mb-md-0
-          p los elementos describirán los datos de contacto del fondo documental que produce tal comunicación, así como el logotipo y demás simbología que identifique al funcionario de correspondencia para la aplicación del principio de procedencia. Tales datos estiman: canales de información, como portal web, correo corporativo, número de WhatsApp, redes sociales y números telefónicos. En general, existen plantillas para la elaboración del documento; en otros casos, existen hojas con membrete para cumplir con esta característica del documento.
+          p Los elementos describirán los datos de contacto del fondo documental que produce tal comunicación, así como el logotipo y demás simbología que identifique al funcionario de correspondencia para la aplicación del principio de procedencia. Tales datos estiman: canales de información, como portal web, correo corporativo, número de WhatsApp, redes sociales y números telefónicos. En general, existen plantillas para la elaboración del documento; en otros casos, existen hojas con membrete para cumplir con esta característica del documento.
       .row.justify-content-center(titulo="Fechas del documento")
         .col-md-11.mb-4.mb-md-0
-          p la primera información que se detalla en el documento, tanto quien lo redacta como la persona que lo avala mediante su firma y el funcionario que lo recibe para su radicación, es la fecha del documento y de dónde procede, referencias que juegan un papel trascendental en la radicación del mismo. 
+          p La primera información que se detalla en el documento, tanto quien lo redacta como la persona que lo avala mediante su firma y el funcionario que lo recibe para su radicación, es la fecha del documento y de dónde procede, referencias que juegan un papel trascendental en la radicación del mismo. 
           p Ejemplo: los documentos que se radiquen y que su fecha de elaboración sea mayor a 60 días deben ser actualizados para atender el requerimiento y, por ende, darle entrada en el sistema de gestión documental.
       .row.justify-content-center(titulo="Motivo de la creación del documento")
         .col-md-11.mb-4.mb-md-0
-          p para toda persona es valioso lo que trasmite, por eso, se agradece toda información que se plasma y cada documento debe tener un asunto claro que cuente el objetivo del mismo, en otras palabras, el motivo que llevó a la creación del documento. 
+          p Para toda persona es valioso lo que trasmite, por eso, se agradece toda información que se plasma y cada documento debe tener un asunto claro que cuente el objetivo del mismo, en otras palabras, el motivo que llevó a la creación del documento. 
       .row.justify-content-center(titulo="Contenido del documento")
         .col-md-11.mb-4.mb-md-0
-          p toda comunicación oficial que se recibe o se elabora presenta una información a partir de la que se desea generar un trámite o generar una respuesta. El contenido se presenta con lo destacado, los anexos, el orden de las ideas principales y la expresión de la finalidad del documento.        
+          p Toda comunicación oficial que se recibe o se elabora presenta una información a partir de la que se desea generar un trámite o generar una respuesta. El contenido se presenta con lo destacado, los anexos, el orden de las ideas principales y la expresión de la finalidad del documento.        
       .row.justify-content-center(titulo="Radicación según el documento")
         .col-md-11.mb-4.mb-md-0
-          p además de ser una de las características para considerar que el escrito es un documento que hace parte de un fondo documental, es también uno de los procedimientos de las unidades de correspondencia, las cuales, según la vía que haya utilizado el usuario, persona natural o persona jurídica, para hacer llegar su comunicación, proceden a radicar estampando el sello radicador en el documento físico o electrónico e ingresar la información al sistema de gestión documental. 
+          p Además de ser una de las características para considerar que el escrito es un documento que hace parte de un fondo documental, es también uno de los procedimientos de las unidades de correspondencia, las cuales, según la vía que haya utilizado el usuario, persona natural o persona jurídica, para hacer llegar su comunicación, proceden a radicar estampando el sello radicador en el documento físico o electrónico e ingresar la información al sistema de gestión documental. 
     .row.justify-content-center(data-aos="fade-down-left") 
       .col-xxl-10.col-lg-10.col-sm-10.col-11.p-4
         .cajon.color-acento-contenido.p-4.mb-4.fondo9
@@ -406,7 +408,7 @@
         .row.justify-content-end.fondo12.correr-izq3
           .col-xxl-7.col-md-7.col-sm-7.col-7
             p.text-bold Nota importante:
-            p el mantenimiento de los archivos incluye su usabilidad en el tiempo y su facilidad de revisión, por eso, para el caso de los archivos digitales, se debe tener en cuenta el tipo de formato de archivo que se guarda, para que no pierda su visibilidad; por lo general, se usan archivos genéricos de imagen de tipo JPEG o de lectura PDF.
+            p El mantenimiento de los archivos incluye su usabilidad en el tiempo y su facilidad de revisión, por eso, para el caso de los archivos digitales, se debe tener en cuenta el tipo de formato de archivo que se guarda, para que no pierda su visibilidad; por lo general, se usan archivos genéricos de imagen de tipo JPEG o de lectura PDF.
     separador
     #criterios.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3. Criterios para la administración de comunicaciones oficiales
@@ -415,7 +417,11 @@
         .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="zoom-in-up")
           img.mb-4(src='@/assets/curso/tema1/figura8.svg')
         .col-xxl-8.col-lg-8.col-sm-10.col-11.py-4
-          p Los tipos documentales que recibe la unidad de correspondencia con mayor frecuencia son las solicitudes de información, PQRS (peticiones, quejas, reclamos o sugerencias), oficios, invitaciones, entre otros; mientras que los tipos documentales que produce una entidad son las circulares, memorandos, informes, actas, certificaciones, mensajes electrónicos y solicitudes de respuesta a trámite.
+          p Los tipos documentales que 
+            span.text-bold recibe 
+            span la unidad de correspondencia con mayor frecuencia son las solicitudes de información, PQRS (peticiones, quejas, reclamos o sugerencias), oficios, invitaciones, entre otros; mientras que los tipos documentales que 
+            span.text-bold produce 
+            span una entidad son las circulares, memorandos, informes, actas, certificaciones, mensajes electrónicos y solicitudes de respuesta a trámite.
           p La entidad acude a la normatividad, al manual de correspondencia, los parámetros técnicos y principios archivísticos para situar en el contexto las funciones que realiza el responsable de la unidad de correspondencia, sobre todo en esta área en la que se recopila la mayor fuente de información. La siguiente tabla muestra las principales características normativas en cuestión: 
 
     .titulo-sexto.color-acento-contenido
@@ -623,7 +629,8 @@
               | Procedimientos que brinden organización a la unidad de correspondencia.        
             li 
               i.fas.fa-book-open
-              | Normalización en la producción de documentos. 
+              | Normalización en la producción de documentos.
+    p.my-5 Las siguientes son las normas a tener en cuenta en el proceso normativo vigente en Colombia: 
     .row.justify-content-center.mt-5
       .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-right")
         .tabla-a.color-acento-botones.mb-5 
@@ -666,8 +673,8 @@
           img(src='@/assets/curso/tema1/figura12.svg')
         p.my-5(data-aos="slide-right") Cuando las situaciones se tornan delicadas a partir de un descuido en las respuestas no generadas, se pueden generar llamados de atención y sanciones.
     .row.justify-content-center
-      .col-xxl-8.col-lg-8.col-sm-9.col-11(data-aos="fade-down-left")
-        img(src='@/assets/curso/tema1/figura13.svg')
+      .col-xxl-8.col-lg-8.col-sm-11.col-12(data-aos="fade-down-left")
+        img(src='@/assets/curso/tema1/figura13.png')
       .col-xxl-7.col-lg-7.col-sm-9.col-10.fondo15.p-4.mt-5(data-aos="fade-down-right")
         p Dicho de otra manera, empezar a apagar el incendio que, en ocasiones, es manejable, como solicitudes o peticiones que ya vencieron, y situaciones criticas en tipos documentales, como derechos de petición, acciones de tutela, fallos y demás que dieran lugar a sanciones disciplinarias y penales a la entidad. 
     p.my-5 El servicio de alerta en algunas empresas es gestionado todos los fines de cada mes, enviando información a las unidades administrativas acerca de las comunicaciones que aún están pendientes por respuesta. Este servicio tiene la finalidad de cooperar en la atención al usuario y posicionamiento de la entidad. 
@@ -686,7 +693,7 @@
       .row.justify-content-between.p-5.align-items-center
         .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
           h4.mb-5 Guantes
-          p la entidad dotará de este implemento a las unidades de correspondencia, archivo y demás que así lo requieran. Por lo general, los que entregan la entidad son de látex, aunque algunos funcionarios pueden ser alérgicos, por lo que la empresa opta por hacer pedidos de guantes de vinilo; lo cierto es que cualquiera de los dos cumple con la función de proteger las manos que están en constante contacto con el documento. Los riesgos de no utilizar guantes pueden ser hongos, inflamaciones en los dedos y alergias provocadas por contaminación.
+          p La entidad dotará de este implemento a las unidades de correspondencia, archivo y demás que así lo requieran. Por lo general, los que entregan la entidad son de látex, aunque algunos funcionarios pueden ser alérgicos, por lo que la empresa opta por hacer pedidos de guantes de vinilo; lo cierto es que cualquiera de los dos cumple con la función de proteger las manos que están en constante contacto con el documento. Los riesgos de no utilizar guantes pueden ser hongos, inflamaciones en los dedos y alergias provocadas por contaminación.
       
         .col-xxl-6.col-xl-6.col-lg-5.col-md-1.col-sm-1.col-1.pe-5
           figure

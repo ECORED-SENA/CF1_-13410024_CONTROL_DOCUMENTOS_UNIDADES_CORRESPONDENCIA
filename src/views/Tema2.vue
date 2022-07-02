@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 2
       h1 Funciones de la Unidad de Correspondencia frente al trámite de las comunicaciones
-
+    p.my-5 La unidad de correspondencia asume la responsabilidad de prestar servicio de calidad al usuario, el cual se avala con el compromiso de ejecutar las siguientes funciones:
     .row.justify-content-center.fondo2.correr-izq2
       .col-xxl-3.col-lg-3.col-sm-5.col-6(data-aos="fade-up")
         img.ms-3(src='@/assets/curso/tema2/imagen1.png')
@@ -50,7 +50,7 @@
       p.ms-5(data-aos="fade-up") Sobre este documento, reposa gran parte de la normatividad; es fundamental que todo colaborador de documentos lo conozca, tal como se muestra a continuación:
     figure(data-aos="zoom-in-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/NGCYM1NhJCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video      
       separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade")
@@ -67,9 +67,9 @@
                 img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura1.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Recepción
-              p Documentos físicos o electrónicos que se reciben, se distribuyen y se despachan en atención al servicio al ciudadano, por medio de quienes ejercen las funciones administrativas de la institución pública o privada.
+              p La recepción es quizá la tarea más delicada del servicio de correspondencia. En esta, el funcionario está en la capacidad de recibir documentos de manera presencial, a través de ventanilla única, o recibir documentos electrónicos, a través de los diferentes canales de comunicación dispuestos por la entidad.
 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
                 img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura2.svg')
@@ -77,46 +77,46 @@
               h4.mb-5 Clasificación
               p La clasificación se hace como tarea previa. Antes de radicar la documentación, el funcionario tiene la facultad de diferenciar la documentación con categoría oficial de aquella que se recibe a título personal; dicho en otras palabras, la categoría oficial es aquella que se radica, ya que presenta una misión dentro de la entidad. Las dirigidas a título personal no se radican. Ejemplo: recibir una invitación para el encuentro anual de egresados dirigida al Jurídico.
 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
-                img.nomostrar.mb-4(src='@/assets/curso/tema2/figura3.svg')
+                img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura3.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Apertura
               p La apertura es revisar los documentos y anexos que contiene el sobre para poder radicar la información. Cualquier paquete que se reciba en ventanilla única debe abrirse para revisar su contenido y así dar indicaciones del procedimiento; en caso contrario, no se podrá recibir, mucho menos oficializarlo en la entidad. Este paso se recomienda hacerlo frente al usuario, para evitar confusiones.
 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
-                img.nomostrar.mb-4(src='@/assets/curso/tema2/figura4.svg')
+                img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura4.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Radicación
               p La radicación se convierte en la oficialización del trámite que desea realizar el usuario frente a la entidad. El sello radicador puede ser manual o automatizado, de acuerdo con la necesidad de la entidad pública o privada. El usuario recibe copia del documento radicado, mediante la cual podrá hacer seguimiento a la respuesta con el número consecutivo que le fue asignado. 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
-                img.nomostrar.mb-4(src='@/assets/curso/tema2/figura5.svg')
+                img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura5.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Registro
               p El registro es otro de los controles necesarios para la gestión de la documentación, se realiza una vez haya sido radicada. En el registro, se ingresan datos a un <i>software</i> o base de datos, o simplemente se llenan planillas o formatos en físico con la información relevante del documento: fechas, número de radicado, remitente, asunto, folios, destinatario competente, entre otros. 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
-                img.nomostrar.mb-4(src='@/assets/curso/tema2/figura6.svg')
+                img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura6.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Distribución o reparto
               p La distribución o el reparto de la correspondencia se hace en horarios pactados o establecidos por el área y de conocimiento por parte de los colaboradores de la organización. Esta tarea la suele realizar el mismo que recepciona la comunicación, con la intención de constatar que quien debe dar trámite al documento lo ha recibido. 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
-                img.nomostrar.mb-4(src='@/assets/curso/tema2/figura7.svg')
+                img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura7.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Despacho de documentos
               p El despacho de la documentación que se produce en las diferentes dependencias de la entidad está a cargo del responsable de la Unidad de Correspondencia, quien recibe el documento de la oficina productora y genera el radicado de salida para oficializar el trámite y realizar el envío del mensaje, guardando siempre una trazabilidad. Si el archivo es digital, se recomienda responder reenviando el mensaje, para no perder datos. 
-          .row.justify-content-between.p-5.fondo14.align-items-center
+          .row.justify-content-center.p-5.fondo14.align-items-center
             .col-md-4.col-sm-6.pe-5
               figure
-                img.nomostrar.mb-4(src='@/assets/curso/tema2/figura8.svg')
+                img.nomostrar2.mb-4(src='@/assets/curso/tema2/figura8.svg')
             .col-md-8.mb-4.mb-md-0.col-sm-11.col-11
               h4.mb-5 Traslado de documentos
               p El traslado de documentos es el efectuado por la mensajería, que entrega un formato de planilla para que la Unidad de Correspondencia diligencie con la información que se desea repartir al contexto externo. En las planillas, se relacionan datos de la empresa (entidad remitente), nombre del destinatario, dirección, municipio y departamento; y se diligencian tantas planillas como documentos se entregan. Acá termina el proceso.
@@ -133,7 +133,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       h5 Tabla 5
-      span.text-small Principales características normativas
+      span.text-small Planilla de control de correspondencia
 
     .tabla-a.color-acento-botones.mb-5(data-aos="fade-up")
       table
