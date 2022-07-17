@@ -8,7 +8,7 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    //- Muestras
+    Muestras
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span 1
@@ -30,7 +30,23 @@
       .col-xl-7.col-sm-12(data-aos="fade-left")
         p.mb-5.mt-4 Intentar dar claridad en la administración de las comunicaciones que se reciben a diario a través de los diferentes canales de información dispuestos por una entidad hace que el compromiso en esa labor tome categoría transcendental dentro de cualquier Unidad Administrativa. Desde que el ser humano tiene uso de razón, recurre al documento para generar un trámite, ya sea personal, académico o laboral; los documentos aplican desde una fórmula médica o una certificación académica, hasta una queja por incremento del valor en recibos de servicios públicos; por esta razón, no es novedad que hagamos uso del soporte documental como individuos, la novedad se da en la aplicación que requiere una empresa o entidad para la gestión de estos datos de manera adecuada y acorde con la legislación.
     p.mb-5 Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció:
-    p.mb-5.text-center Los tres principales usos de un documento son los siguientes:
+    .row.justify-content-around.align-items-center.p-5.fondo22
+      .col-xxl-3.col-xl-3.col-lg-3.col-md-8.col-sm-11.col-11
+        img.mb-4(src='@/assets/curso/tema1/imagen28.png')
+      .col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.col-12
+        .titulo-segundo.color-secundario
+          h2 Docu y su origen en las antiguas culturas
+        p.mb-5 Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció, para ello lo invitamos a consulta el siguiente recurso infográfico.
+        a.boton.me-3.indicador__container(
+          :href="obtenerLink('/downloads/Docu.pdf')"
+          target="_blank"
+          type="application/pdf"
+          @mouseover="mostrarIndicador = false"
+        )
+          span Descargar
+          i.fas.fa-file-download
+          .indicador--click(v-if="mostrarIndicador")          
+    p.my-5.text-center Los tres principales usos de un documento son los siguientes:
     .row.fondo2.justify-content-center
       .col-xxl-8.col-sm-10.col-11
         img.encima(src='@/assets/curso/tema1/figura2.svg')(data-aos="fade-down")
@@ -310,10 +326,10 @@
                           | Entre otros.
 
       p.mb-5.ms-5(data-aos="fade-down-left")  Las unidades documentales complejas suelen confundir a quien clasifica, ordena y describe la información para la conformación del expediente, ya que necesita conocer las funciones de la unidad administrativa que da lugar al expediente de archivo o el expediente electrónico, y además sus tipos documentales varían según la estructura, pero no se pueden separar, ya que forman parte de un mismo proceso. 
-      .row.justifycontent-center
-        .col-xxl-5.col-lg-5.col-sm-6.col-10.ms-5(data-aos="fade-down-left") 
+      .row.justify-content-center.px-5
+        .col-xxl-5.col-lg-5.col-sm-6.col-10(data-aos="fade-down-left") 
           img.mb-4(src='@/assets/curso/tema1/figura5.svg')
-        .col-xxl-7.col-lg-7.col-sm-10.col-11.ms-5(data-aos="fade-down-right") 
+        .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right") 
           .cajon.color-acento-contenido.p-4.mb-4.fondo9
             p Un ejemplo cotidiano de falencia presentada en las unidades de correspondencia es la apertura de expedientes bajo la denominación de correspondencia recibida y correspondencia enviada, un fatal error que, como nace en el centro de administración de documentos, se lleva a las demás oficinas productoras, ocasionando una ruta de desorganización y pérdida de acceso a la información de manera oportuna.
           p Las Unidades Documentales, en adelante UD, son creadas a razón de un mismo formato o estructura en el que se facilita la integración al expediente; por ejemplo, se pueden citar las resoluciones en las que sustentan un mismo modelo acorde con la política institucional, lo único que varía de este documento sería: número de resolución, fechas y lo que resuelve.         
