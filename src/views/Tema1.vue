@@ -74,8 +74,8 @@
           p.my-5(data-aos="slide-left") El almacenamiento de los documentos es necesario para las entidades en general, ya sea de manera física, por medio de un archivo físico, o en archivo digital, con repositorios de archivos, inclusive, la gran mayoría de las empresas están usando repositorios de información de ambos tipos. A los archivos que se mantienen en archivados en estado físico se les denomina “documentos de archivo” y son documentos que se deben tener con mucho cuidado, como se puede ver a continuación:
     figure.mb-5(data-aos="zoom-in-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WkUkGzIvQ5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     p.my-5.text-center La misión principal del documento de archivo es la protección de la información; por lo general, contiene los siguientes datos:
     .row.justify-content-center
       .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="slide-right")
@@ -83,8 +83,7 @@
     p.my-5.text-center Por otra parte, se tienen los documentos digitales, que también se almacenan con el mismo fin que los documentos físicos. Observe algunas características de este tipo de archivo digital:
     figure.mb-5(data-aos="zoom-in-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4flFQ_uh-94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.my-5.text-center Los documentos digitales deben tener los siguientes datos:
     .row.justify-content-center

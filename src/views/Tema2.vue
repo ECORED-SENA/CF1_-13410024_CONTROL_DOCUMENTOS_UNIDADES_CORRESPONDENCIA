@@ -51,7 +51,7 @@
     figure(data-aos="zoom-in-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/NGCYM1NhJCU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video      
+    
       separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.2. Pautas de recepción, distribución y despacho de documentos
