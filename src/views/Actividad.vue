@@ -5,18 +5,18 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--blanca.h-100.d-flex.align-items-center
+        .tarjeta.tarjeta--blanca.h-100.d-flex.align-items-center(data-aos="fade-down")
           figure
             img(src="@/assets/curso/actividad/seleccion-multiple.svg", alt="Actividad didáctica")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo(data-aos="fade-down-left")
           h2 Mi oficina de correspondencia es segura
-        p.mb-4 Promover la identificación de pautas en la gestión de comunicaciones oficiales para su gestión en una unidad documental.
+        p.mb-4(data-aos="fade-down") Promover la identificación de pautas en la gestión de comunicaciones oficiales para su gestión en una unidad documental.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
-            .col-sm.mb-3.mb-sm-0
+            .col-sm.mb-3.mb-sm-0(data-aos="fade-down")
               p.fw-bold.mb-0 Preguntas de opción múltiple con una sola respuesta
-            .col-auto
+            .col-auto(data-aos="fade-up")
               a.boton.boton--b(:href="obtenerLink('/actividades/index.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece

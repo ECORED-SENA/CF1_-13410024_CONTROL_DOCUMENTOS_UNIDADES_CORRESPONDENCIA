@@ -10,33 +10,33 @@
     //- esto evitará que se compile en la carpeta final de distribución
     //- Muestras
     .titulo-principal.color-acento-contenido(data-aos="fade")
-      .titulo-principal__numero
+      .titulo-principal__numero.encima
         span 1
       h1 Categorización del documento en el alistamiento y distribución de comunicaciones oficiales
-    .row.justify-content-center
-      .col-xl-7.col-sm-12(data-aos="slide-right")
+    .row.justify-content-center.fondo1.ampliar.px-5
+      .col-xl-7.col-sm-12(data-aos="fade-down-right")
         p La producción, recepción y distribución de documentos ha llamado la atención notablemente, es así que los esfuerzos por controlar la pérdida de información no se han hecho esperar, desde la activación de nuevos procesos, aplicación y conocimiento de la normatividad, hasta las formaciones que permiten entregarle al responsable de la correspondencia las herramientas necesarias y actuales para evitar que negligencias como la desconcentración o la falta de aplicación de planillas en los flujos de información de la entidad lleven al caos y detrimento del patrimonio documental.
-        p.mb-5 La gestión de  la información se hace a partir de espacios ordenados que permitan la claridad en su búsqueda específica de manera física o digital, siendo necesario su aislamiento y distribución. Tal como lo dice la Universidad de Málaga (2018), se busca clasificar y ordenar esa información vuelta documentos en una buena disposición, “
-          span.text-bold clasificar un documento significa agruparlo por conceptos o asuntos concretos; y ordenar un documento quiere decir establecer una secuencia cronológica, alfabética o numérica dentro de cada grupo y situarlo físicamente en el espacio
+        p.mb-5.encima La gestión de  la información se hace a partir de espacios ordenados que permitan la claridad en su búsqueda específica de manera física o digital, siendo necesario su aislamiento y distribución. Tal como lo dice la Universidad de Málaga (2018), se busca clasificar y ordenar esa información vuelta documentos en una buena disposición, “
+          span.text-bold.bg-resaltado clasificar un documento significa agruparlo por conceptos o asuntos concretos; y ordenar un documento quiere decir establecer una secuencia cronológica, alfabética o numérica dentro de cada grupo y situarlo físicamente en el espacio
           span ”. En correspondencia, se abordan a continuación los conceptos fundamentales requeridos.
-      .col-xl-5.col-sm-12.fondo1(data-aos="zoom-in-up")
-        img.mt-5(src='@/assets/curso/tema1/figura1.svg')
-    separador
-    #archivo.titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 1.1. Archivo y documento: definición, clases, características y principios
-    .row.justify-content-center    
-      .col-xl-5.col-sm-12(data-aos="fade-down")
-        img(src='@/assets/curso/tema1/imagen2.png')
-      .col-xl-7.col-sm-12(data-aos="fade-left")
-        p.mb-5.mt-4 Intentar dar claridad en la administración de las comunicaciones que se reciben a diario a través de los diferentes canales de información dispuestos por una entidad hace que el compromiso en esa labor tome categoría transcendental dentro de cualquier Unidad Administrativa. Desde que el ser humano tiene uso de razón, recurre al documento para generar un trámite, ya sea personal, académico o laboral; los documentos aplican desde una fórmula médica o una certificación académica, hasta una queja por incremento del valor en recibos de servicios públicos; por esta razón, no es novedad que hagamos uso del soporte documental como individuos, la novedad se da en la aplicación que requiere una empresa o entidad para la gestión de estos datos de manera adecuada y acorde con la legislación.
-    p.mb-5 Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció:
-    .row.justify-content-around.align-items-center.p-5.fondo22
-      .col-xxl-3.col-xl-3.col-lg-3.col-md-8.col-sm-11.col-11
+      .col-xl-5.col-sm-12.encima(data-aos="zoom-in-up")
+        img.mt-5.encima(src='@/assets/curso/tema1/figura1.svg')
+      separador.encima
+      #archivo.titulo-segundo.color-acento-contenido.encima(data-aos="fade")
+        h2.encima 1.1. Archivo y documento: definición, clases, características y principios
+      .row.justify-content-center.encima
+        .col-xl-5.col-sm-12.encima(data-aos="fade-down")
+          img.encima(src='@/assets/curso/tema1/imagen2.png')
+        .col-xl-7.col-sm-12.encima(data-aos="fade-left")
+          p.mb-5.mt-4.encima Intentar dar claridad en la administración de las comunicaciones que se reciben a diario a través de los diferentes canales de información dispuestos por una entidad hace que el compromiso en esa labor tome categoría transcendental dentro de cualquier Unidad Administrativa. Desde que el ser humano tiene uso de razón, recurre al documento para generar un trámite, ya sea personal, académico o laboral; los documentos aplican desde una fórmula médica o una certificación académica, hasta una queja por incremento del valor en recibos de servicios públicos; por esta razón, no es novedad que hagamos uso del soporte documental como individuos, la novedad se da en la aplicación que requiere una empresa o entidad para la gestión de estos datos de manera adecuada y acorde con la legislación.
+        p.mb-5(data-aos="fade-down") Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció:
+    .row.justify-content-around.align-items-center.p-5.fondo22(data-aos="fade-down")
+      .col-xxl-3.col-xl-3.col-lg-3.col-md-8.col-sm-11.col-11(data-aos="fade-down")
         img.mb-4(src='@/assets/curso/tema1/imagen28.png')
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.col-12
+      .col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.col-12(data-aos="fade-down-right")
         .titulo-segundo.color-secundario
           h2 Docu y su origen en las antiguas culturas
-        p.mb-5 Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció, para ello lo invitamos a consulta el siguiente recurso infográfico.
+        p.mb-5(data-aos="fade-down") Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció, para ello lo invitamos a consulta el siguiente recurso infográfico.
         a.boton.me-3.indicador__container(
           :href="obtenerLink('/downloads/Docu.pdf')"
           target="_blank"
@@ -46,46 +46,46 @@
           span Descargar
           i.fas.fa-file-download
           .indicador--click(v-if="mostrarIndicador")          
-    p.my-5.text-center Los tres principales usos de un documento son los siguientes:
-    .row.fondo2.justify-content-center
-      .col-xxl-8.col-sm-10.col-11
+    p.my-5.text-center(data-aos="fade-down") Los tres principales usos de un documento son los siguientes:
+    .row.fondo2.justify-content-center.ampliar.px-5
+      .col-xxl-8.col-xl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-up")
         img.encima(src='@/assets/curso/tema1/figura2.svg')(data-aos="fade-down")
-      .row.justify-content-end
-        .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="slide-left")
-          p.my-5.encima Los documentos se han mantenido en formato físico durante mucho tiempo, pero desde hace algunos años se pueden contener de manera digital en archivos de diferentes formatos. Todos los documentos digitales o análogos requieren como mínimo los siguientes 4 elementos:
-      .row.justify-content-center.align-items-center
-        .col-xxl-5.col-sm-6.col-8
-          img.mb-4(src='@/assets/curso/tema1/imagen1.png')(data-aos="slide-right")
-        .col-xxl-7.col-sm-10.col-11(data-aos="slide-left")
-          ul.lista-ul--color
-            li 
-              i.fas.fa-book-open
-              | Destinatarios.
-            li
-              i.fas.fa-book-open
-              | Productores.
-            li 
-              i.fas.fa-book-open
-              | Objetivo del documento.
-            li 
-              i.fas.fa-book-open
-              | Ruta de llegada del documento o destino.
+    .row.justify-content-end
+      .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12(data-aos="fade-up")
+        p.my-5.encima Los documentos se han mantenido en formato físico durante mucho tiempo, pero desde hace algunos años se pueden contener de manera digital en archivos de diferentes formatos. Todos los documentos digitales o análogos requieren como mínimo los siguientes 4 elementos:
+    .row.justify-content-center.align-items-center
+      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-6.col-8(data-aos="fade-down")
+        img.mb-4(src='@/assets/curso/tema1/imagen1.png')(data-aos="slide-right")
+      .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12(data-aos="fade-up")
+        ul.lista-ul--color
+          li 
+            i.fas.fa-book-open
+            | Destinatarios.
+          li
+            i.fas.fa-book-open
+            | Productores.
+          li 
+            i.fas.fa-book-open
+            | Objetivo del documento.
+          li 
+            i.fas.fa-book-open
+            | Ruta de llegada del documento o destino.
 
-          p.my-5(data-aos="slide-left") El almacenamiento de los documentos es necesario para las entidades en general, ya sea de manera física, por medio de un archivo físico, o en archivo digital, con repositorios de archivos, inclusive, la gran mayoría de las empresas están usando repositorios de información de ambos tipos. A los archivos que se mantienen en archivados en estado físico se les denomina “documentos de archivo” y son documentos que se deben tener con mucho cuidado, como se puede ver a continuación:
+        p.my-5(data-aos="slide-left") El almacenamiento de los documentos es necesario para las entidades en general, ya sea de manera física, por medio de un archivo físico, o en archivo digital, con repositorios de archivos, inclusive, la gran mayoría de las empresas están usando repositorios de información de ambos tipos. A los archivos que se mantienen en archivados en estado físico se les denomina “documentos de archivo” y son documentos que se deben tener con mucho cuidado, como se puede ver a continuación:
     figure.mb-5(data-aos="zoom-in-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/WkUkGzIvQ5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.my-5.text-center La misión principal del documento de archivo es la protección de la información; por lo general, contiene los siguientes datos:
+    p.my-5.text-center(data-aos="fade-down") La misión principal del documento de archivo es la protección de la información; por lo general, contiene los siguientes datos:
     .row.justify-content-center
       .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="slide-right")
          img(src='@/assets/curso/tema1/archivo.svg')
     p.my-5.text-center Por otra parte, se tienen los documentos digitales, que también se almacenan con el mismo fin que los documentos físicos. Observe algunas características de este tipo de archivo digital:
-    figure.mb-5(data-aos="zoom-in-up")
+    figure.mb-5(data-aos="fade-down-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/4flFQ_uh-94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    p.my-5.text-center Los documentos digitales deben tener los siguientes datos:
+    p.my-5.text-center(data-aos="fade-down") Los documentos digitales deben tener los siguientes datos:
     .row.justify-content-center
       .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="slide-right")
         img(src='@/assets/curso/tema1/electronico.svg')
@@ -96,7 +96,7 @@
           span ; ese conjunto de documentos es el que resguarda el patrimonio documental de las entidades. Estas actividades, por lo general, se hacen en un área reservada de las entidades y son administradas por una persona que se vuelve responsable de lo que allí se soporta. Sin embargo, en algunas entidades, este espacio carece de un funcionario que controle la documentación que ingresa mediante las transferencias documentales y que realice la sensibilización de las unidades administrativas con respecto a los procesos de gestión documental, entre otras actividades.
       .col-xxl-5.col-lg-5.col-sm-6.col-8(data-aos="fade-left")
         img(src='@/assets/curso/tema1/imagen3.png')
-    .row.justify-content-center.align-items-center.fondo3.mt-5.ampliar.px-5(data-aos="fade-down-left") 
+    .row.justify-content-center.align-items-center.fondo3.my-5.ampliar.px-5(data-aos="fade-down-left") 
       .col-xxl-3
         p Los diferentes tipos de archivos y el estado en el que se pueden encontrar se presentan a continuación: 
       .col-xxl-3.col-sm-6.col-lg-3.mb-4.mb-lg-0.bajar
@@ -131,13 +131,13 @@
           p.text-center Almacena la información que amerita su conservación total, de acuerdo con lo descrito en las TRD.
 
     .row.justify-content-center.align-items-center.fondo4.my-5
-      .col-xxl-7.col-lg-7.col-sm-11.col-11(data-aos="fade-down-right") 
-        p La archivística es 
+      .col-xxl-7.col-lg-7.col-md-12.col-sm-12.col-12.pt-sm-5.pt-md-5.py-5.px-md-4(data-aos="fade-down-right") 
+        p.mt-3 La archivística es 
           span.resaltar.text-bold “el estudio teórico y práctico de los principios, procedimientos y problemas concernientes al almacenamiento de documentos, buscando que dicha documentación, se mantenga en el tiempo, pueda ser consultada y clasificada” 
           span (Archivosagil, 2018); este estudio arroja como resultado que
         p todas las unidades administrativas que cumplan funciones relacionadas con el manejo documental incluyan principios archivísticos en su gestión documental dentro de la entidad, la idea es hacer práctico el uso de los documentos.
-      .col-xxl-5.col-lg-5.col-sm-6.col-8(data-aos="fade-down-left") 
-        img.mb-4(src='@/assets/curso/tema1/imagen4.png')
+      .col-xxl-5.col-lg-5.col-md-8.col-sm-9.col-11.pb-3(data-aos="fade-down-left") 
+        img(src='@/assets/curso/tema1/imagen4.png')
 
     p.my-5 Los principios de la archivística son dos, tal como lo relaciona la Universidad Nacional de Córdoba (2019):
 
@@ -185,18 +185,18 @@
 
     p.text-center El siguiente es el ejemplo del Principio de orden original, que muestra cómo se lleva la constancia de las diferentes versiones de unos documentos desde su original:
 
-    .row.justify-content-center.encima.fondo5
+    .row.justify-content-center.fondo5.ampliar.px-5
       .col-xxl-6.col-lg-6.col-sm-10.col-11(data-aos="fade-down-right") 
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           span.text-small Ejemplo de Principio de orden original
         img.mb-4(src='@/assets/curso/tema1/imagen5.png')
       .row
-        .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="slide-left")             
+        .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="fade-down-right")         
           p.fondo6.padTitulo.text-bold.ancho1 Clasificación de los documentos
 
       .row.justify-content-center
-        .col-xxl-6.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left") 
+        .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12(data-aos="fade-down-left") 
           p La buena gestión de la información que ingresa a la entidad y que se produce en ella nace del uso que se le dé al soporte, la identificación de procedencia y de la finalidad con que se redacta el mensaje. No todos los soportes son documentos de archivo o documentos electrónicos, la información se puede resguardar en un plano, en una fotografía, en un video, incluso, puede tener aspecto multimedia, en un audio, etc. A todos estos datos se les debe garantizar los mismos procedimientos archivísticos para su conservación. 
           p Una fotografía puede ser el anexo de una solicitud que se radica en ventanilla única, se registra y se distribuye a la unidad administrativa competente. En algunos casos, esta información no llega completa al área donde se elabora la respuesta, lo que perjudica el concepto que emite el funcionario competente. Lo anterior es el talón de Aquiles de las unidades de correspondencia, que, a falta de formatos, actividades y procedimientos, dejan toda la responsabilidad a la memoria del responsable de la gestión de documentos. En la siguiente infografía, se presenta la clasificación de los documentos:
         .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="fade-down")
@@ -212,47 +212,47 @@
             figure
               img(src='@/assets/curso/tema1/figura3.svg')
 
-          .tarjeta.fondohistograma.p-3(x="35%" y="21%" numero="")
+          .tarjeta.fondohistograma.p-3(x="35.7%" y="30%" numero="")
             .h5.mb-2 Textuales
             p Memorandos, circulares, cartas, informes
 
-          .tarjeta.fondohistograma.p-3(x="53%" y="21%" numero="")
+          .tarjeta.fondohistograma.p-3(x="52.5%" y="30%" numero="")
             .h5.mb-2 Gráficos
             p Mapas, dibujos planos
 
-          .tarjeta.fondohistograma.p-3(x="71%" y="21%" numero="")
+          .tarjeta.fondohistograma.p-3(x="69.7%" y="30%" numero="")
             .h5.mb-2 Imagen
             p Cuadros, fotografías, diapositivas, etc.
 
-          .tarjeta.fondohistograma.p-3(x="88.5%" y="21%" numero="")
+          .tarjeta.fondohistograma.p-3(x="86.6%" y="30%" numero="")
             .h5.mb-2 Cinta
             p Video, pizarrón, magnético, microfilm, cintas magnéticas 
 
-          .tarjeta.fondohistograma.p-3(x="35%" y="54.7%" numero="")
+          .tarjeta.fondohistograma.p-3(x="35.7%" y="58%" numero="")
             .h5.mb-2 Documento público
             p Producido y recibido en entidades estatales.
 
-          .tarjeta.fondohistograma.p-3(x="53%" y="54%" numero="")
+          .tarjeta.fondohistograma.p-3(x="52.7%" y="58%" numero="")
             .h5.mb-2 Documento privado
             p Producido y recibido en entidades privadas.
 
-          .tarjeta.fondohistograma.p-3(x="35%" y="88.8%" numero="")
+          .tarjeta.fondohistograma.p-3(x="35.7%" y="86.8%" numero="")
             .h5.mb-2 Documento dispositivos:
             p Leyes, decretos, ordenanzas, acuerdos, resoluciones
 
-          .tarjeta.fondohistograma.p-3(x="53%" y="88.8%" numero="")
+          .tarjeta.fondohistograma.p-3(x="52.7%" y="86.8%" numero="")
             .h5.mb-2 Documentos informativos:
             p Cartas, memorando, circulares, etc.
 
-          .tarjeta.fondohistograma.p-3(x="71%" y="88.8%" numero="")
+          .tarjeta.fondohistograma.p-3(x="69.6%" y="86.8%" numero="")
             .h5.mb-2 Documentos testimoniales:
             p Contables, contratos, etc.
 
     .row.my-5
-      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="slide-left")             
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-8.col-sm-10.col-12(data-aos="fade-down-right")       
         p.fondo6.padTitulo.text-bold Características del documento
     p.mb-5 La mayoría de las empresas vienen liderando capacitaciones al talento humano para contribuir con esta labor, ya que la comunicación que se despacha necesita describir con precisión y lenguaje común la información que recibirá el usuario. Una comunicación pueda ser considerada un documento que atesore la entidad, siempre y cuando quienes elaboran el mensaje no descuiden los siguientes detalles:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down-left") 
+    AcordionA(data-aos="fade-down-left").mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.justify-content-center(titulo="Encabezado y pie de página")
         .col-md-11.mb-4.mb-md-0
           p Los elementos describirán los datos de contacto del fondo documental que produce tal comunicación, así como el logotipo y demás simbología que identifique al funcionario de correspondencia para la aplicación del principio de procedencia. Tales datos estiman: canales de información, como portal web, correo corporativo, número de WhatsApp, redes sociales y números telefónicos. En general, existen plantillas para la elaboración del documento; en otros casos, existen hojas con membrete para cumplir con esta característica del documento.
@@ -275,10 +275,10 @@
           p Tanto quien elabora el documento como el funcionario de la unidad de correspondencia que lo recibe son responsables de velar porque los documentos presentados evidencien estos elementos para su fácil identificación y organización documental. Si por algún caso el documento carece de esta información, significa que la persona a cargo no validó la información y está infringiendo el proceso de gestión documental. Ante esta situación, se encuentra constantemente el proceso de capacitación, para que los empleados responsables del proceso lo hagan cumplir a cabalidad, para dar trámite sin perjudicar a otros participantes del proceso.
 
     .row
-      .col-xxl-4.col-xl-4.col-lg-5.col-md-6.col-sm-7.col-4(data-aos="slide-left")                  
+      .col-xxl-4.col-xl-4.col-lg-5.col-md-6.col-sm-7.col-4(data-aos="fade-down-right")              
         p.fondo6.padTitulo.text-bold.ancho2 Unidad documental.
 
-    p.mb-5 Tener la disponibilidad de la información es establecer expedientes que cumplan con las series y subseries documentales descritas en el instrumento archivístico de las Tablas de Retención Documental (TRD), descifrando los expedientes complejos o simples, como se evidencia a continuación en la gráfica de tipos de unidades documentales:
+    p.mb-5(data-aos="fade-down-left")  Tener la disponibilidad de la información es establecer expedientes que cumplan con las series y subseries documentales descritas en el instrumento archivístico de las Tablas de Retención Documental (TRD), descifrando los expedientes complejos o simples, como se evidencia a continuación en la gráfica de tipos de unidades documentales:
 
     .row.justify-content-center(data-aos="fade-down-left") 
       .col-xxl-6.col-lg-6.col-sm-8.col-10
@@ -286,10 +286,10 @@
           h5 Figura 4
           span.text-small Tipos de unidades documentales
         img.mb-4(src='@/assets/curso/tema1/figura4.svg')
-    p.mb-5 Una unidad documental compleja es aquella conformada por varios tipos documentales, estos documentos son diferentes, pero hacen parte de la misma unidad de documentos, como se ve en la siguiente tabla:
+    p.mb-5(data-aos="fade-down-left") Una unidad documental compleja es aquella conformada por varios tipos documentales, estos documentos son diferentes, pero hacen parte de la misma unidad de documentos, como se ve en la siguiente tabla:
 
-    .row.justify-content-center.fondo2.correr-izq2
-      .col-xxl-6.col-lg-6.col-sm-8.col-10.ms-5(data-aos="fade-down-left") 
+    .row.justify-content-center.fondo2.ampliar.px-5
+      .col-xxl-7.col-lg-7.col-sm-8.col-10(data-aos="fade-down-left") 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3
           span.text-small Unidad documental compleja
@@ -324,19 +324,27 @@
                           i.lista-ul__vineta
                           | Entre otros.
 
-      p.mb-5.ms-5(data-aos="fade-down-left")  Las unidades documentales complejas suelen confundir a quien clasifica, ordena y describe la información para la conformación del expediente, ya que necesita conocer las funciones de la unidad administrativa que da lugar al expediente de archivo o el expediente electrónico, y además sus tipos documentales varían según la estructura, pero no se pueden separar, ya que forman parte de un mismo proceso. 
+      p.mb-5.ms-lg-5(data-aos="fade-down-left")  Las unidades documentales complejas suelen confundir a quien clasifica, ordena y describe la información para la conformación del expediente, ya que necesita conocer las funciones de la unidad administrativa que da lugar al expediente de archivo o el expediente electrónico, y además sus tipos documentales varían según la estructura, pero no se pueden separar, ya que forman parte de un mismo proceso. 
       .row.justify-content-center.px-5
         .col-xxl-5.col-lg-5.col-sm-6.col-10(data-aos="fade-down-left") 
           img.mb-4(src='@/assets/curso/tema1/figura5.svg')
-        .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right") 
+        .col-xxl-7.col-lg-7.col-md-12.col-sm-12.col-12(data-aos="fade-down-right") 
           .cajon.color-acento-contenido.p-4.mb-4.fondo9
             p Un ejemplo cotidiano de falencia presentada en las unidades de correspondencia es la apertura de expedientes bajo la denominación de correspondencia recibida y correspondencia enviada, un fatal error que, como nace en el centro de administración de documentos, se lleva a las demás oficinas productoras, ocasionando una ruta de desorganización y pérdida de acceso a la información de manera oportuna.
           p Las Unidades Documentales, en adelante UD, son creadas a razón de un mismo formato o estructura en el que se facilita la integración al expediente; por ejemplo, se pueden citar las resoluciones en las que sustentan un mismo modelo acorde con la política institucional, lo único que varía de este documento sería: número de resolución, fechas y lo que resuelve.         
-          .row.justify-content-center
-            .col-xxl-5.col-lg-5.col-sm-6.col-8
-              img.mb-4(src='@/assets/curso/tema1/figura6.svg')
-            .col-xxl-5.col-lg-5.col-sm-6.col-8
-              img.mb-4(src='@/assets/curso/tema1/figura7.svg')
+          .row.justify-content-around.align-items-center
+            .col-xxl-5.col-lg-5.col-xl-5.col-sm-8.col-12.fondo24.mb-2
+              .row.justify-content-center.align-items-center
+                .col-xxl-5.col-xl-5.col-lg-5.col-md-5.col-sm-5.col-1.p-3
+                  img.cambiarsize.d-none.d-sm-block(src='@/assets/curso/tema1/mensaje1.svg')
+                .col-xxl-7.col-xl-7.col-lg-7.col-md-7.col-sm-7.col-10.py-4
+                  p.text-center.text-bold.m-auto Resoluciones
+            .col-xxl-5.col-xl-5.col-lg-5.col-sm-8.col-12.fondo24.mb-2
+              .row.justify-content-center.align-items-center
+                .col-xxl-5.col-xl-5.col-xl-5.col-lg-5.col-md-5.col-sm-5.col-1.p-3
+                  img.cambiarsize.d-none.d-sm-block(src='@/assets/curso/tema1/mensaje2.svg')
+                .col-xxl-7.col-xl-7.col-lg-7.col-md-7.col-sm-7.col-10.py-4
+                   p.text-center.text-bold.m-auto Memorando
       p.mt-5.ms-5(data-aos="fade-down-left")  Las unidades documentales complejas o simples están constituidas por el cumplimiento de las funciones, para no separar procesos que vinculan información. 
       p.mb-5.ms-5(data-aos="fade-down-left")  La tipología documental que se genera en las unidades de correspondencia va en razón de las comunicaciones oficiales, por ello, toda comunicación que ingrese o se despache tiene que transitar de acuerdo con lo establecido en el  ciclo PHVA: planear, hacer, verificar y actuar. Para la producción documental, se relaciona con:
     .row.justify-content-center
@@ -366,32 +374,36 @@
 
     p.my-5(data-aos="fade-down-left")  Para que haya un adecuado proceso en las unidades de correspondencia, previamente existe una planificación de cada una de las etapas que intervienen en los procesos de documentación, partiendo de lo que realiza la persona que recibe y radica un documento físico o electrónico, hasta la persona que archiva el documento en el expediente. Las competencias de administración documental son el eslabón para que empecemos a examinar todo lo que ingresa y sale de la entidad, así como el recorrido que hace hasta llegar a su disposición final. Si lo anterior no es apoyado en las competencias de la administración documental, se está condenado a cualquier amenaza cibernética, siniestro natural o biológico en el que pueda verse afectada la información; por ende, se indica la cooperación de cada competencia con el flujo de la información:
 
-    .row.mb-5(data-aos="fade-down-left")
-      .col-sm-4.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/imagen25.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen7.jpg')})`}")
+    //-tarjetas slide nuevo
+    .row.justify-content-center.mb-5
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/tema1/imagen7.jpg')
+          .crd_hover_txt--body.nuevocolor1.text-white
+            h4.mb-3 Control:
+            p.mb-0 lineamientos dispuestos por la entidad para la recepción y radicación del documento, así como la  producción de la respuesta al trámite; se debe tener en cuenta desde el seguimiento a los tiempos de respuesta de las comunicaciones hasta los equipos o herramientas utilizadas para dar seguridad al documento.  
 
-      .col-sm-4.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/imagen26.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen8.jpg')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/imagen8.jpg")
+          .crd_hover_txt--body.nuevocolor2.text-white
+            h4.mb-3 Almacenamiento:
+            p.mb-0 Esta competencia permite al fondo documental consultar la información posteriormente, es aquí donde se le da el valor al HACER, vital para la administración documental con buenas prácticas en el resguardo de la información.
 
-      .col-sm-4.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido
-              img(src='@/assets/curso/tema1/imagen9.svg')
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/imagen27.svg')})`}")
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema1/imagen27.svg")
+          .crd_hover_txt--body.nuevocolor3.text-white
+            h4.mb-3 Mantenimiento
+            p.mb-0.me-5 Es el proceso de mantener actualizada y de fácil acceso la información por el periodo de tiempo prudente o dispuesto por la legislación.
 
-    p.my-5 Los detalles del almacenamiento con el tiempo han ido evolucionando, y para dar detalle a cada necesidad, se relacionan las formas de almacenar los documentos físicos y digitales:
+    p.my-5(data-aos="fade-down-left")  Los detalles del almacenamiento con el tiempo han ido evolucionando, y para dar detalle a cada necesidad, se relacionan las formas de almacenar los documentos físicos y digitales:
     .row.justify-content-center
       .col-xxl-10.col-lg-10.col-sm-10.col-11(data-aos="fade-down-left") 
         .tabla-a.color-acento-botones.mb-5 
@@ -412,38 +424,40 @@
                 td.p-3 Todo documento que conforme el expediente cuenta con su procedimiento de clasificación y ordenación, para que se almacene en las diferentes cajas de archivo inactivo con su identificación (rótulo) para la recuperación de la información.
                 td.p-3 El trabajo de almacenamiento lo lideran los ingenieros de sistemas, quienes conforman el comité de archivo.
     .row.justify-content-center
-      .col-xxl-5.col-lg-5.col-sm-7.col-9.encima(data-aos="fade-down-left") 
+      .col-xxl-5.col-xl-5.col-lg-5.col-md-7.col-sm-7.col-9.encima(data-aos="fade-down-left") 
         img.mb-4(src='@/assets/curso/tema1/imagen10.png')
-      .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right") 
+      .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12.ps-5(data-aos="fade-down-right") 
         p Con 
           span.text-bold relación 
           span al mantenimiento, la 
           span.text-bold relación 
           span debe ser extrema, no solo por mantener el archivo distante de amenazas como roedores o humedad, sino que se debe prevenir la pérdida o los ingresos exteriores al sistema; para eso, se recomienda establecer los permisos dentro de la entidad para la visualización según las categorías de la información, que, para su conocimiento, es de tres tipos:  pública, clasificada, reservada. Por ejemplo, hay cierta información que solo puede conocer quien la genera, no habrá permisos para las demás áreas  en cuanto a visualización y menos a su publicación.
-        .row.justify-content-end.fondo12.correr-izq3
-          .col-xxl-7.col-md-7.col-sm-7.col-7
-            p.text-bold Nota importante:
-            p El mantenimiento de los archivos incluye su usabilidad en el tiempo y su facilidad de revisión, por eso, para el caso de los archivos digitales, se debe tener en cuenta el tipo de formato de archivo que se guarda, para que no pierda su visibilidad; por lo general, se usan archivos genéricos de imagen de tipo JPEG o de lectura PDF.
+        .row.justify-content-end.fondo26.correr-izq3.align-items-center
+          .col-xxl-2.col-md-2.col-sm-3.col-3.debajo.ps-sm-5.ps-md-5
+            img.m-auto(src='@/assets/curso/tema1/bombilla.png')
+          .col-xxl-8.col-md-8.col-sm-8.col-8
+            p.text-bold.me-4.mt-4 Nota importante:
+            p.me-4 El mantenimiento de los archivos incluye su usabilidad en el tiempo y su facilidad de revisión, por eso, para el caso de los archivos digitales, se debe tener en cuenta el tipo de formato de archivo que se guarda, para que no pierda su visibilidad; por lo general, se usan archivos genéricos de imagen de tipo JPEG o de lectura PDF.
     separador
     #criterios.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 1.3. Criterios para la administración de comunicaciones oficiales
 
     .row.justify-content-center.fondo13
-        .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="zoom-in-up")
-          img.mb-4(src='@/assets/curso/tema1/figura8.svg')
-        .col-xxl-8.col-lg-8.col-sm-10.col-11.py-4
-          p Los tipos documentales que 
-            span.text-bold recibe 
-            span la unidad de correspondencia con mayor frecuencia son las solicitudes de información, PQRS (peticiones, quejas, reclamos o sugerencias), oficios, invitaciones, entre otros; mientras que los tipos documentales que 
-            span.text-bold produce 
-            span una entidad son las circulares, memorandos, informes, actas, certificaciones, mensajes electrónicos y solicitudes de respuesta a trámite.
-          p La entidad acude a la normatividad, al manual de correspondencia, los parámetros técnicos y principios archivísticos para situar en el contexto las funciones que realiza el responsable de la unidad de correspondencia, sobre todo en esta área en la que se recopila la mayor fuente de información. La siguiente tabla muestra las principales características normativas en cuestión: 
+      .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="fade-down-right") 
+        img.mb-4(src='@/assets/curso/tema1/figura8.svg')
+      .col-xxl-8.col-lg-8.col-md-12.col-sm-12.col-12.py-4(data-aos="fade-down-left")
+        p Los tipos documentales que 
+          span.text-bold recibe 
+          span la unidad de correspondencia con mayor frecuencia son las solicitudes de información, PQRS (peticiones, quejas, reclamos o sugerencias), oficios, invitaciones, entre otros; mientras que los tipos documentales que 
+          span.text-bold produce 
+          span una entidad son las circulares, memorandos, informes, actas, certificaciones, mensajes electrónicos y solicitudes de respuesta a trámite.
+        p La entidad acude a la normatividad, al manual de correspondencia, los parámetros técnicos y principios archivísticos para situar en el contexto las funciones que realiza el responsable de la unidad de correspondencia, sobre todo en esta área en la que se recopila la mayor fuente de información. La siguiente tabla muestra las principales características normativas en cuestión: 
 
-    .titulo-sexto.color-acento-contenido
+    .titulo-sexto.color-acento-contenido(data-aos="fade-down-left") 
       h5 Tabla 4
       span.text-small Principales características normativas
 
-    .tabla-a.color-acento-botones.mb-5 
+    .tabla-a.color-acento-botones.mb-5(data-aos="fade-down-left") 
       table
         tbody
           tr.fondoTabla.align-items-top
@@ -478,63 +492,63 @@
             td.ps-4 Traslado de documentos en el acceso total de la información.
 
     .row.justify-content-center.mt-5
-      .col-xxl-7.col-lg-7.col-sm-10.col-11
+      .col-xxl-7.col-lg-7.col-md-12.col-sm-12.col-12(data-aos="fade-down-right") 
         p Los lineamientos en el manejo de las comunicaciones oficiales ofrecen a las instituciones erradicar los problemas que se derivan de las fallas de transparencia y acceso a la información, dificultad en la recuperación de información e irregularidades en el servicio que se presta al usuario a causa del incumplimiento de las pautas de la administración documental. Por otra parte, la institución también asume su aporte de responsabilidad entregando a quienes ejercen las herramientas y equipos que contribuyen a su exitosa tarea frente a la creciente información, por lo que se suministra la transformación de controles manuales a automatizados que faciliten el proceso en la prestación del servicio de atención al usuario, radicación de correspondencia y seguimiento a las comunicaciones oficiales.
-      .col-xxl-5.col-lg-5.col-sm-6.col-8
+      .col-xxl-5.col-lg-5.col-sm-6.col-8(data-aos="fade-down-left") 
         img.mb-4(src='@/assets/curso/tema1/imagen11.png')
 
-    p.mb-5 En la extensión de los criterios de la administración documental, se establece la noción de las comunicaciones oficiales que rodean la entidad; para lograr la trazabilidad de las comunicaciones, se relacionan los 3 elementos a supervisar, como se muestra en el siguiente gráfico:
+    p.mb-5(data-aos="fade-down-right")  En la extensión de los criterios de la administración documental, se establece la noción de las comunicaciones oficiales que rodean la entidad; para lograr la trazabilidad de las comunicaciones, se relacionan los 3 elementos a supervisar, como se muestra en el siguiente gráfico:
 
-    SlyderA.fondo14(tipo="b")
-      .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+    SlyderA(data-aos="fade-down-right").fondo14(tipo="b")
+      .row.justify-content-between.p-5.align-items-top
+        .col-xxl-4.col-xl-4.col-lg-11.col-md-11.mb-4.mb-md-0.ps-4
           h4.mb-5 Comunicaciones oficiales
           p Documentos físicos o electrónicos que se reciben, se distribuyen y se despachan en atención al servicio al ciudadano, por medio de quienes ejercen las funciones administrativas de la institución pública o privada.
       
-        .col-md-7.pe-5
+        .col-xxl-7.col-xl-7.col-lg-11.col-md-11.pe-5
           figure
             img(src='@/assets/curso/tema1/imagen12.png')
 
-      .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+      .row.justify-content-between.p-5.align-items-top
+        .col-xxl-4.col-xl-4.col-lg-11.col-md-11.mb-4.mb-md-0.ps-4
           h4.mb-5 Internas
           p Aquellas que se producen a razón de informar sobre un acontecimiento, hecho o situación entre los funcionarios de las diferentes unidades administrativas. Entre las más comunes, se encuentran: informes, circulares, memorandos.
           p Las comunicaciones enunciadas anteriormente y que se dirigen de una dependencia a otra hacen escala en la unidad de correspondencia para su respectivo ingreso al sistema mediante el radicado. 
-        .col-md-7
+        .col-xxl-7.col-xl-7.col-lg-11.col-md-11
           figure
             img(src='@/assets/curso/tema1/imagen13.png')
 
-      .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+      .row.justify-content-between.p-5.align-items-top
+        .col-xxl-4.col-xl-4.col-lg-11.col-md-11.mb-4.mb-md-0.ps-4
           h4.mb-5 Recibidas
           p PQRS, solicitudes de información, derechos de petición, acciones de tutela, correos electrónicos, entre otros, que utiliza el ciudadano como soporte para comunicarse ante la institución y hacer un requerimiento. El funcionario, antes de recibir la documentación, procede a hacer verificación de requisitos tales como: competencia, firmas, cantidad de folios, dirección y teléfono del remitente, en aras de que cuando se genere la respuesta pueda llegar al usuario. 
       
-        .col-md-7
+        .col-xxl-7.col-xl-7.col-lg-11.col-md-11
           figure
             img(src='@/assets/curso/tema1/imagen14.png')
 
-      .row.justify-content-between.p-5
-        .col-md-4.mb-4.mb-md-0
+      .row.justify-content-between.p-5.align-items-top
+        .col-xxl-4.col-xl-4.col-lg-11.col-md-11.mb-4.mb-md-0.ps-4
           h4.mb-5 Enviadas
           p Es la documentación que produce una institución con una finalidad, que puede ser: responder a un requerimiento, solicitar información, felicitar, persuadir y demás. Quienes la producen tienen el deber de facilitarla al área de correspondencia para el respectivo radicado de salida y el despacho del documento. En documentos electrónicos, es el mismo procedimiento, solo que no se despacha mediante un servicio postal, sino que se registra en la misma trazabilidad que se recibe. Ejemplo: correo electrónico, portal web.
-        .col-md-7
+        .col-xxl-7.col-xl-7.col-lg-11.col-md-11
           figure
             img(src='@/assets/curso/tema1/imagen15.png')
-    .row.fondo2.correr-izq2
-      .col-xxl-4.my-5.col-lg-5.col-md-7.col-sm-11.col-12.ms-5(data-aos="slide-left")        
+    .row.fondo2.correr-izq2.ps-5
+      .col-xxl-4.my-5.col-lg-5.col-md-7.col-sm-11.col-12(data-aos="fade-down-right")         
         p.fondo6.padTitulo.text-bold Despacho de documentos
-      .row.justify-content-center.ms-5
+      .row.justify-content-center
         .col-xxl-5.col-lg-5.col-sm-7.col-8(data-aos="fade-down-left")
           img(src='@/assets/curso/tema1/figura9.svg')
-        .col-xxl-5.col-lg-5.col-md-10.col-sm-10.col-11(data-aos="fade-down-right")
+        .col-xxl-7.col-lg-7.col-md-12.col-sm-12.col-12(data-aos="fade-down-right")
           p.mt-4 El despacho de documentos inicia cuando la oficina productora remite la comunicación a la unidad de correspondencia para que esta se encargue de hacer el despacho; los funcionarios de la unidad de correspondencia proceden a revisar que la documentación tenga las especificaciones requeridas: membrete de la entidad, número de copias, el adecuado embalaje y el responsable de firmar el documento.
           p Con esta verificación, se le inserta el radicado de salida ubicado en el extremo superior derecho, para oficializar el envío; en este procedimiento, se resalta que la documentación a la que se le imprime un radicado de salida es la que ha cumplido con lo relacionado, dicho en otras palabras, no puede haber radicados de salida en documentos que aún están pendientes por la firma del funcionario competente o que les falta algún anexo, ya que la fecha de este radicado debe ser lo más cercana posible al envío.
-        .row.justify-content-center
-          .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left")
-            p La preparación del embalaje de la documentación la ejecutan las oficinas productoras, es decir, donde se crea el documento y se traslada a la unidad de correspondencia, de tal manera que, cuando el funcionario haya dado el radicado de salida y registrado en la planilla de control de despacho de documentos, se pueda proceder a resguardar el documento en el embalaje que ha propuesto la oficina productora, siempre y cuando cumpla con los parámetros que exige la mensajería postal.
-            p La oficina productora puede solicitar la copia de la respuesta radicada para la conformación de la serie documental de la dependencia, una vez el responsable de la unidad de correspondencia haya realizado el proceso de envío del documento, y la otra copia es de uso de la unidad de correspondencia para el control de los consecutivos de correspondencia despachada.
-          .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="fade-down-right")        
-            img(src='@/assets/curso/tema1/imagen16.png')
+      .row.justify-content-center
+        .col-xxl-8.col-lg-8.col-md-12.col-sm-12.col-12(data-aos="fade-down-left")
+          p La preparación del embalaje de la documentación la ejecutan las oficinas productoras, es decir, donde se crea el documento y se traslada a la unidad de correspondencia, de tal manera que, cuando el funcionario haya dado el radicado de salida y registrado en la planilla de control de despacho de documentos, se pueda proceder a resguardar el documento en el embalaje que ha propuesto la oficina productora, siempre y cuando cumpla con los parámetros que exige la mensajería postal.
+          p La oficina productora puede solicitar la copia de la respuesta radicada para la conformación de la serie documental de la dependencia, una vez el responsable de la unidad de correspondencia haya realizado el proceso de envío del documento, y la otra copia es de uso de la unidad de correspondencia para el control de los consecutivos de correspondencia despachada.
+        .col-xxl-4.col-lg-4.col-sm-6.col-8(data-aos="fade-down-right")        
+          img(src='@/assets/curso/tema1/imagen16.png')
 
         p.mt-5(data-aos="slide-right") Una de las habilidades del responsable de la unidad de correspondencia es saber seleccionar el medio seguro y oportuno para hacerle llegar la comunicación al ciudadano o usuario. Se debe diligenciar la planilla de control de despacho de correspondencia para manifestar que se dejó constancia de esta acción.
         p.mb-5(data-aos="slide-right") A continuación, se presenta una planilla de control de documentos básica, que puede usar para sus buenas prácticas:
@@ -567,7 +581,7 @@
             td
             td
     .row
-      .col-xxl-4.col-lg-5.col-md-9.col-sm-11.col-12.mt-5(data-aos="slide-left")        
+      .col-xxl-4.col-lg-5.col-md-9.col-sm-11.col-12.mt-5(data-aos="fade-down-right")  
         p.fondo6.padTitulo.text-bold Radicación de documentos
 
     p.mb-5(data-aos="fade-down-left") Tal como lo menciona Analítica (2019), se conoce como radicación al 
@@ -581,16 +595,16 @@
             figure
               img(src='@/assets/curso/tema1/figura10.svg')
 
-          .tarjeta.fondohistograma2.p-3(x="15%" y="32%" numero="")
+          .tarjeta.fondohistograma2.p-3(x="15%" y="32%" numero="1")
             .h3.mb-2 Recepción
             p En cada inicio de vigencia, se cuenta con nueva radicación consecutiva. Siempre se recibe y se radica información, a pesar de no haber energía eléctrica o sistema computarizado. Para este caso, el funcionario tiene la facultad de continuar recibiendo documentos de manera manual, según el consecutivo en el que haya quedado, para no retrasar su trabajo y la atención al usuario. Cuando retorne la energía eléctrica, hará la respectiva gestión de aquellos documentos que se radicaron manualmente.
 
-          .tarjeta.fondohistograma2.p-3(x="50%" y="32%" numero="")
-            .h5.mb-2 Copia
+          .tarjeta.fondohistograma2.p-3(x="50%" y="32%" numero="2")
+            .h3.mb-2 Copia
             p Una vez se radique el documento físico, se hace entrega de la copia al usuario, para que pueda hacer seguimiento a la comunicación a través del número consecutivo. En la radicación de documentos electrónicos, una vez se haya oficializado el trámite con la entidad, se envía al sistema de gestión documental para la distribución electrónica de la información a la unidad administrativa competente.
 
-          .tarjeta.fondohistograma2.p-3(x="84.5%" y="32%" numero="")
-            .h5.mb-2 Compromiso
+          .tarjeta.fondohistograma2.p-3(x="84.5%" y="32%" numero="3")
+            .h3.mb-2 Compromiso
             p El compromiso de la entidad para tramitar la correspondencia inicia en el momento en que se radica el documento. Previamente, tenga en cuenta los siguientes aspectos:
             ul.lista-ul--color
               li 
@@ -609,24 +623,28 @@
                 i.fas.fa-book-open
                 | Que, en la cuestión de documentos electrónicos, estos sean legibles.
 
-    p.mb-5 Según lo contemplado en el Acuerdo 060 del Archivo General de la Nación (2001), en el Art. 2, la radicación de comunicaciones oficiales es la asignación de datos tales como: fecha y hora de ingreso o envío de la entidad a documentos recibidos de parte del usuario o producidos por un funcionario de la entidad. Es así como el radicado tiene la función de apropiar el documento externo, y también es a partir de la fecha de este sello radicado que se empiezan a contar los tiempos para la producción de la respuesta.
-    .row.justify-content-center.align-items-center.encima.fondo5.correr-der2
+    p.mb-5(data-aos="fade-down-right") Según lo contemplado en el Acuerdo 060 del Archivo General de la Nación (2001), en el Art. 2, la radicación de comunicaciones oficiales es la asignación de datos tales como: fecha y hora de ingreso o envío de la entidad a documentos recibidos de parte del usuario o producidos por un funcionario de la entidad. Es así como el radicado tiene la función de apropiar el documento externo, y también es a partir de la fecha de este sello radicado que se empiezan a contar los tiempos para la producción de la respuesta.
+    .row.justify-content-center.align-items-center.fondo5.correr-der2
       .col-xxl-5.col-lg-5.col-sm-7.col-9.encima.ms-0.mt-3(data-aos="fade-left")
         img.subir2(src='@/assets/curso/tema1/imagen17.png')
       .col-xxl-7.col-lg-7.col-sm-10.col-11(data-aos="fade-down-right")
-        .row.justify-content-end.fondo12.correr-izq3.subir2.me-5.mt-3
-          .col-xxl-7.col-md-7.col-sm-7.col-7.py-4.encima
+        .row.justify-content-end.fondo26.correr-izq3.subir2.me-5.mt-3.align-items-center
+          .col-xxl-2.col-md-2.col-sm-3.col-3.ps-sm-5.ps-md-5
+            img.m-auto(src='@/assets/curso/tema1/bombilla.png')
+          .col-xxl-8.col-md-8.col-sm-8.col-8.py-4.encima
             p.text-bold Nota:
             p No se pueden guardar ni reservar números de radicación, en cumplimiento con lo señalado en el Acuerdo 060 expedido por el Archivo General de la Nación (2001).
       separador
       #norma.titulo-segundo.color-acento-contenido(data-aos="fade")
         h2 1.4. Norma técnica vigente de calidad
-      p.mb-5(data-aos="fade-down-left") En la implementación de unidades de correspondencia armonizadas, se necesita contar con la estandarización de los procesos, trazando rutas que aseguren el documento hasta llegar a su disposición final. Por ello, este proceso es acompañado de la normatividad vigente que permita garantizar calidad en:
+      .row.justify-content-center
+        .col-12.pe-3
+          p.mb-5(data-aos="fade-down-left") En la implementación de unidades de correspondencia armonizadas, se necesita contar con la estandarización de los procesos, trazando rutas que aseguren el documento hasta llegar a su disposición final. Por ello, este proceso es acompañado de la normatividad vigente que permita garantizar calidad en:
       .row.justify-content-center.align-items-center(data-aos="fade-down-right")
         .col-xxl-4.col-lg-4.col-sm-7.col-9(data-aos="fade-left")
           img(src='@/assets/curso/tema1/figura11.svg')
         .col-xxl-8.col-lg-8.col-sm-10.col-11
-          ul.lista-ul--color.mt-4
+          ul.lista-ul--color.mt-4.nuevocolorbook-open
             li 
               i.fas.fa-book-open
               | Registros de planillas de control.
@@ -645,7 +663,7 @@
             li 
               i.fas.fa-book-open
               | Normalización en la producción de documentos.
-    p.my-5 Las siguientes son las normas a tener en cuenta en el proceso normativo vigente en Colombia: 
+    p.my-5(data-aos="fade-down-right") Las siguientes son las normas a tener en cuenta en el proceso normativo vigente en Colombia: 
     .row.justify-content-center.mt-5
       .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-right")
         .tabla-a.color-acento-botones.mb-5 
@@ -677,11 +695,11 @@
         h2 1.5. Servicio de alerta de correspondencia, concepto y procedimiento
       .col-xxl-3.col-lg-3.col-sm-5.col-7(data-aos="fade-down-left")
         img.ms-5(src='@/assets/curso/tema1/imagen18.png')
-      .col-xxl-9.col-lg-9.col-sm-10.col-11(data-aos="fade-down-right")
+      .col-xxl-9.col-lg-9.col-md-12.col-sm-12.col-12(data-aos="fade-down-right")
         p.ms-5.mt-4 Dentro de las funciones de la Unidad de Correspondencia, se encuentra realizar seguimiento a las comunicaciones recibidas, para dar respuestas oportunas en atención del servicio al usuario. Este servicio es una agenda en la que se inspecciona cuáles documentos no han sido tramitados aún por la oficina productora y, de esta manera, brindar el informe al representante legal o quien haga las veces de principal autoridad. 
         p.ms-5 En las empresas que realizan procesos de control de manera manual y que la gran mayoría de documentos que se reciben son en papel, basta con observar las planillas de control, realizando un descargue de las respuestas tramitadas, es decir, se realiza un cruce de información con cada unidad administrativa de radicados de entrada con radicados de salida y es así como se obtiene la información de las comunicaciones a las que aún no se les ha dado respuesta. Esta actividad es realmente efectiva, ya que puede ser que el funcionario competente traspapeló dicha comunicación, pero, en el cumplimiento de las funciones, el responsable de la unidad de correspondencia le recuerda la documentación que tiene pendiente por trámite.
       .row.justify-content-center.align-items-center.mt-4.ms-5
-        .col-xxl-8.col-lg-8.col-sm-10.col-11(data-aos="fade-down-left")
+        .col-xxl-8.col-lg-8.col-md-12.col-sm-12.col-12(data-aos="fade-down-left")
           p El control automatizado para generar el servicio de alerta se realiza mediante las herramientas que ofrece el sistema de gestión documental o <i>software</i> que maneja la entidad para la administración documental. El representante legal o principal autoridad podrá revisar, en el momento que lo desee, a través de la descarga del informe sobre los avances en el trámite de correspondencia, y determinará las unidades administrativas con bandejas de entrada en cero y aquellas cuyas solicitudes ya se encuentran tardías por respuesta; este es un control veraz hacia la eficacia de la empresa. En muchas empresas, se realizan planes de contingencia para subsanar bandejas de entrada de unidades administrativas con más de 100 correos represados en el sistema de gestión documental. 
           p Aunque, por lo general, este informe es agilizado por la unidad de correspondencia para presentarlo ante la dirección.
         .col-xxl-4.col-lg-4.col-sm-6.col-7(data-aos="fade-down-right")
@@ -704,7 +722,7 @@
       h2 1.6. Buenas prácticas de salud en el trabajo para la gestión de documentos
     p.my-5(data-aos="fade-down-right") Los elementos o equipos de protección personal (EPP) se requieren para el amparo de salud en el ámbito de las funciones que realiza el colaborador. Quienes ejecutan funciones de la unidad de correspondencia pueden presentar enfermedades con la manipulación de grandes cantidades de papel, que van desde problemas respiratorios hasta un sistema inmunológico débil. Por ello, la persona encargada de la seguridad y salud en el trabajo sensibiliza sobre el uso de elementos de protección personal en unidades de correspondencia, tales como: guantes, tapabocas, antibacterial, entre otros que favorezcan integralmente la inmunidad del funcionario. Los siguientes son los elementos básicos a tener en cuenta como artículos básicos de trabajo:
 
-    SlyderA.fondo14.mb-5(tipo="b")(data-aos="fade-down-left")
+    SlyderA.fondo14(data-aos="fade-down-right").mb-5(tipo="b")
       .row.justify-content-between.p-5.align-items-center
         .col-xxl-6.col-xl-6.col-lg-7.col-md-11.col-sm-11.col-11.mb-4.mb-md-0
           h4.mb-5 Guantes
@@ -737,12 +755,12 @@
         .col-xxl-6.col-xl-6.col-lg-5.col-md-1.col-sm-1.col-1
           figure
             img.nomostrar1(src='@/assets/curso/tema1/imagen23.png')
-    .row.justify-content-between.mt-5.fondo16(data-aos="fade-down-right")
+    .row.justify-content-center.mt-5.fondo16(data-aos="fade-down-right")
       .col-xxl-7.col-xl-7.col-lg-7.col-md-11.col-sm-11.col-11
-        p.p-3 Una afectación importante es la salud mental del responsable de la unidad de correspondencia, quien se encuentra todos los días en trabajo bajo presión y con filas interminables de recepción de comunicaciones; esta problemática trae consigo la desconcentración en sus actividades, lleva problemas del trabajo a la casa y trae problemas de la casa al trabajo que perjudican la secuencia del proceso.  Es fundamental el uso de pausas activas y condiciones de trabajo bien definidas para evitar que esto suceda.
-        p.mt-3 No se recomienda, dentro de las prácticas documentales, dejar todo a la memoria. Algunos colaboradores trabajan basados en el compromiso de la memoria, ellos no llevan una agenda, no trazan un plan de trabajo, los recordatorios los llevan a su disco duro del cerebro, creen acordarse de todo lo que ejecutan, y esto los lleva a dejar pasar compromisos importantes, teniendo a su disposición todas las técnicas de organización y alerta de las que se habla en este programa.
-      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-7.col-8.encima(data-aos="fade-down-left")
-        img.subir2(src='@/assets/curso/tema1/imagen24.png')
+        p.mt-4 Una afectación importante es la salud mental del responsable de la unidad de correspondencia, quien se encuentra todos los días en trabajo bajo presión y con filas interminables de recepción de comunicaciones; esta problemática trae consigo la desconcentración en sus actividades, lleva problemas del trabajo a la casa y trae problemas de la casa al trabajo que perjudican la secuencia del proceso.  Es fundamental el uso de pausas activas y condiciones de trabajo bien definidas para evitar que esto suceda.
+        p No se recomienda, dentro de las prácticas documentales, dejar todo a la memoria. Algunos colaboradores trabajan basados en el compromiso de la memoria, ellos no llevan una agenda, no trazan un plan de trabajo, los recordatorios los llevan a su disco duro del cerebro, creen acordarse de todo lo que ejecutan, y esto los lleva a dejar pasar compromisos importantes, teniendo a su disposición todas las técnicas de organización y alerta de las que se habla en este programa.
+      .col-xxl-5.col-xl-5.col-lg-5.col-md-6.col-sm-7.col-8.encima.pt-3(data-aos="fade-down-left")
+        img.m-auto(src='@/assets/curso/tema1/imagen24.png')
 
 
 

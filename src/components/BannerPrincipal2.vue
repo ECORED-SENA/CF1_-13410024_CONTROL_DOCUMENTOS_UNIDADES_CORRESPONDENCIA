@@ -17,8 +17,8 @@
 
       .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal" style="width: 470px; margin-left:80px;")
-    .imagen_flotante_1.d-none.d-xl-block: img(src="@/assets/curso/portada/carta1.svg")
-    .imagen_flotante_2.d-none.d-xl-block: img(src="@/assets/curso/portada/carta2.svg")
+    .imagen_flotante_1.d-none.d-lg-block: img(src="@/assets/curso/portada/carta1.svg")
+    .imagen_flotante_2.d-none.d-lg-block: img(src="@/assets/curso/portada/carta2.svg")
     //--.imagen_flotante_3.d-none.d-xl-block: img(src="@/assets/curso/inicio/float3.svg")
     //--.imagen_flotante_4.d-none.d-xl-block: img(src="@/assets/curso/inicio/float4.svg")
     //--.imagen_flotante_5.d-none.d-xl-block: img(src="@/assets/curso/banner-principal.png")
@@ -83,7 +83,7 @@ export default {
         .banner-principal__img
           padding-right: 3rem!important
   &__img
-    animation: scale 2s ease-in-out infinite alternate
+    animation: scale 4s ease-in-out infinite alternate
     @if $banner-principal-img-y == 'arriba'
       align-self: flex-start
       padding-bottom: 1.5rem
@@ -103,13 +103,13 @@ export default {
         padding-bottom: 3rem!important
 .imagen_flotante
   &_1
-    animation: float1 3s ease-in-out infinite alternate
+    animation: float1 4s ease-in-out infinite alternate
     position: absolute
     width: 100px
     bottom: 250px
     left: 60%
   &_2
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 5.5s ease-in-out infinite alternate
     position: absolute
     width: 100px
     bottom: 20%

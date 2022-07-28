@@ -1,8 +1,12 @@
 .fondo1
   background-image: url('../assets/curso/tema1/fondo1.png')
-  background-size: cover
+  background-size: 40% 100% 
   background-repeat: no-repeat
-  background-position: center
+  background-position: right
+  position: relative
+  z-index: 0
+  top: 0
+  left: 0
 
 .fondo2
   background-image: url('../assets/curso/tema1/fondo2.png')
@@ -14,6 +18,8 @@
   z-index: 0
   top: 0
   left: 0
+  @media (max-width: 992px)
+    background-size: 30% 30%
 
 .fondo3
   background-image: url('../assets/curso/tema1/fondo3.png')
@@ -23,11 +29,13 @@
 
 .fondo4
   background-image: url('../assets/curso/tema1/fondo4.png')
-  background-size: 100% 120%
+  background-size: 100% 105%
   background-repeat: no-repeat
-  background-position: center
-  padding: 20px 50px 10px 50px
-
+  background-position: top
+  padding: 10px 50px 15px 50px
+  @media (max-width: 992px)
+    background-size: 100% 115%
+    padding: 0 20px 0 20px
 .fondo5
   background-image: url('../assets/curso/tema1/fondo5.png')
   background-size: 40% 100%
@@ -37,6 +45,8 @@
   z-index: 0
   top: 0
   left: 0
+  @media (max-width: 992px)
+    background-size: 30% 35%
 
 .fondo6
   background-image: url('../assets/curso/tema1/fondobook.svg')
@@ -75,8 +85,8 @@
 
 .fondo12
   background-image: url('../assets/curso/tema1/fondo11.png')
-  background-size: 150% 100%
-  background-position: center
+  background-size: 110% 100%
+  background-position: right
   background-repeat: no-repeat
 
 .fondo13
@@ -86,7 +96,7 @@
   background-repeat: no-repeat
 
 .fondo14
-  background-image: url('../assets/curso/tema1/fondoslider.png')
+  background-image: url('../assets/curso/tema1/fondoslider.jpg')
   background-size: 100% 100%
   background-position: center
   background-repeat: no-repeat
@@ -131,6 +141,95 @@
 .fondo22
   background-color: rgba(19, 138, 248, 0.15)
   border-radius: 10px
+
+.fondo23
+  background-image: url('../assets/curso/tema1/fondo14.png')
+  background-size: 40% 100%
+  background-repeat: no-repeat
+  background-position: right
+  position: relative
+  z-index: 0
+  top: 0
+  left: 0
+
+.fondo24
+  background-color: rgba(12, 218, 225, 0.26)
+  border-radius: 7px
+
+.fondo25
+  background-image: url('../assets/curso/tema2/fondoslider.png')
+  background-size: 100% 100%
+  background-position: center
+  background-repeat: no-repeat
+  @media (max-width: 992px)
+    background-size: 200% 100%
+    background-position: right
+
+.fondo26
+  background-image: url('../assets/curso/tema1/fondo15.png')
+  background-size: 110% 100%
+  background-position: right
+  background-repeat: no-repeat
+
+///////// Card hover
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 0.88) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  @media (max-width: 500px)  
+    .crd_hover_txt--body
+      h4 
+        font-size: 1em
+      p
+        font-size: 0.8em
+
+.nuevocolor1
+  background-color: #60AEB4 !important
+
+.nuevocolor2
+  background-color: #3C6C8E !important
+
+.nuevocolor3
+  background-color: #146C71 !important
+
+.nuevocolorbook-open
+  .fa-book-open:before
+    color: #79DAE1 !important
+
+.img-infografica.color-acento-botones .img-infografica__item__dot:before
+  width: 40px
+  height: 40px
+
+.img-infografica.color-acento-botones .img-infografica__item__numero
+  font-size: 30px
+
+.img-infografica__item__dot:before
+  position: absolute
+  top: -10px
+  left: -10px
+  opacity: 0.4
+
+.cambiarsize
+  width: 80%
+  height: 80%
 
 .titulo-segundo:after
   content: ''
@@ -201,7 +300,12 @@
   margin-top: -60px
 
 .encima
-  z-index: 99
+  position: relative
+  z-index: 1
+
+.debajo
+  position: relative
+  z-index: 0
 
 .resaltar
   background-color: rgba(121, 218, 225, 0.12)
@@ -285,6 +389,9 @@
 .tamano-nro
   width: 83%
   margin-left: 2.4em
+
+.bg-resaltado
+  background-color: rgba(121,218,225,0.12)
 
 @media (min-width: 1401px)
   .nomostrar
