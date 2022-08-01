@@ -12,7 +12,7 @@
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero.encima
         span 1
-      h1 Categorización del documento en el alistamiento y distribución de comunicaciones oficiales
+      h1 Categorización del documento en aislamiento y distribución de comunicaciones oficiales
     .row.justify-content-center.fondo1.ampliar.px-5
       .col-xl-7.col-sm-12(data-aos="fade-down-right")
         p La producción, recepción y distribución de documentos ha llamado la atención notablemente, es así que los esfuerzos por controlar la pérdida de información no se han hecho esperar, desde la activación de nuevos procesos, aplicación y conocimiento de la normatividad, hasta las formaciones que permiten entregarle al responsable de la correspondencia las herramientas necesarias y actuales para evitar que negligencias como la desconcentración o la falta de aplicación de planillas en los flujos de información de la entidad lleven al caos y detrimento del patrimonio documental.
@@ -36,7 +36,7 @@
       .col-xxl-6.col-xl-6.col-lg-6.col-md-10.col-sm-11.col-12(data-aos="fade-down-right")
         .titulo-segundo.color-secundario
           h2 Docu y su origen en las antiguas culturas
-        p.mb-5(data-aos="fade-down") Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció, para ello lo invitamos a consulta el siguiente recurso infográfico.
+        p.mb-5(data-aos="fade-down") Para entender el real impacto de los documentos, es necesario hacer un viaje al pasado, desde cuando el primer documento apareció, para ello lo invitamos a consultar el siguiente recurso infográfico.
         a.boton.me-3.indicador__container(
           :href="obtenerLink('/downloads/Docu.pdf')"
           target="_blank"
@@ -134,8 +134,7 @@
       .col-xxl-7.col-lg-7.col-md-12.col-sm-12.col-12.pt-sm-5.pt-md-5.py-5.px-md-4(data-aos="fade-down-right") 
         p.mt-3 La archivística es 
           span.resaltar.text-bold “el estudio teórico y práctico de los principios, procedimientos y problemas concernientes al almacenamiento de documentos, buscando que dicha documentación, se mantenga en el tiempo, pueda ser consultada y clasificada” 
-          span (Archivosagil, 2018); este estudio arroja como resultado que
-        p todas las unidades administrativas que cumplan funciones relacionadas con el manejo documental incluyan principios archivísticos en su gestión documental dentro de la entidad, la idea es hacer práctico el uso de los documentos.
+          span (Archivosagil, 2018); este estudio arroja como resultado que todas las unidades administrativas que cumplan funciones relacionadas con el manejo documental incluyan principios archivísticos en su gestión documental dentro de la entidad, la idea es hacer práctico el uso de los documentos.
       .col-xxl-5.col-lg-5.col-md-8.col-sm-9.col-11.pb-3(data-aos="fade-down-left") 
         img(src='@/assets/curso/tema1/imagen4.png')
 

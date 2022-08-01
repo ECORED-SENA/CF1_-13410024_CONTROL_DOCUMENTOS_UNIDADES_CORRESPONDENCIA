@@ -27,7 +27,7 @@
             | Entrega de copia del recibido al usuario de ventanilla única.
           li 
             i.fas.fa-book-open
-            | Registro de la comunicación recibida en el <i>software</i> de la institución.
+            p.mb-0 Registro de la comunicación recibida en el <em>software </em> de la institución.
           li
             i.fas.fa-book-open
             | Llevar a cabo controles de la información que se recibe o se despacha.
